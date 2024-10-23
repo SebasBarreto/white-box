@@ -2,18 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Models\Articulo;
+use App\Models\Articulo;  // Asegúrate de que tienes el modelo Articulo
 
 class ArticuloController extends Controller
 {
-    // Función para mostrar artículos por categoría
-    public function mostrarPorCategoria($idcategoria)
+    public function index()
     {
-        // Obtén todos los artículos que pertenecen a la categoría seleccionada
-        $articulos = Articulo::where('idcategoria', $idcategoria)->get();
-        
-        // Retorna la vista y pasa los artículos para que se muestren
-        return view('articulos.index', compact('articulos'));
+        // Obtener todos los artículos de la base de datos
+        $articulos = Articulo::all();
+
+        // Retornar la vista de ventas con los artículos
+        return view('tienda.ventas.ventas', compact('articulos'));
     }
 }

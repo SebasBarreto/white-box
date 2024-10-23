@@ -1,0 +1,2292 @@
+Listado de rutas de carpetas
+El n£mero de serie del volumen es C836-2BD5
+C:.
+ÃÄÄÄ.vscode
+ÃÄÄÄapp
+³   ÃÄÄÄHttp
+³   ³   ÃÄÄÄControllers
+³   ³   ³   ÀÄÄÄAuth
+³   ³   ÃÄÄÄMiddleware
+³   ³   ÀÄÄÄRequests
+³   ³       ÀÄÄÄAuth
+³   ÃÄÄÄModels
+³   ÃÄÄÄProviders
+³   ÀÄÄÄView
+³       ÀÄÄÄComponents
+ÃÄÄÄbootstrap
+³   ÀÄÄÄcache
+ÃÄÄÄconfig
+ÃÄÄÄdatabase
+³   ÃÄÄÄfactories
+³   ÃÄÄÄmigrations
+³   ÃÄÄÄseeders
+³   ÀÄÄÄsql
+ÃÄÄÄnode_modules
+³   ÃÄÄÄ.bin
+³   ÃÄÄÄ.vite
+³   ³   ÀÄÄÄdeps
+³   ÃÄÄÄ@alloc
+³   ³   ÀÄÄÄquick-lru
+³   ÃÄÄÄ@babel
+³   ³   ÃÄÄÄhelper-string-parser
+³   ³   ³   ÀÄÄÄlib
+³   ³   ÃÄÄÄhelper-validator-identifier
+³   ³   ³   ÃÄÄÄlib
+³   ³   ³   ÀÄÄÄscripts
+³   ³   ÃÄÄÄparser
+³   ³   ³   ÃÄÄÄbin
+³   ³   ³   ÃÄÄÄlib
+³   ³   ³   ÀÄÄÄtypings
+³   ³   ÀÄÄÄtypes
+³   ³       ÀÄÄÄlib
+³   ³           ÃÄÄÄasserts
+³   ³           ³   ÀÄÄÄgenerated
+³   ³           ÃÄÄÄast-types
+³   ³           ³   ÀÄÄÄgenerated
+³   ³           ÃÄÄÄbuilders
+³   ³           ³   ÃÄÄÄflow
+³   ³           ³   ÃÄÄÄgenerated
+³   ³           ³   ÃÄÄÄreact
+³   ³           ³   ÀÄÄÄtypescript
+³   ³           ÃÄÄÄclone
+³   ³           ÃÄÄÄcomments
+³   ³           ÃÄÄÄconstants
+³   ³           ³   ÀÄÄÄgenerated
+³   ³           ÃÄÄÄconverters
+³   ³           ÃÄÄÄdefinitions
+³   ³           ÃÄÄÄmodifications
+³   ³           ³   ÃÄÄÄflow
+³   ³           ³   ÀÄÄÄtypescript
+³   ³           ÃÄÄÄretrievers
+³   ³           ÃÄÄÄtraverse
+³   ³           ÃÄÄÄutils
+³   ³           ³   ÀÄÄÄreact
+³   ³           ÀÄÄÄvalidators
+³   ³               ÃÄÄÄgenerated
+³   ³               ÀÄÄÄreact
+³   ÃÄÄÄ@esbuild
+³   ³   ÀÄÄÄwin32-x64
+³   ÃÄÄÄ@isaacs
+³   ³   ÀÄÄÄcliui
+³   ³       ÀÄÄÄbuild
+³   ³           ÀÄÄÄlib
+³   ÃÄÄÄ@jridgewell
+³   ³   ÃÄÄÄgen-mapping
+³   ³   ³   ÀÄÄÄdist
+³   ³   ³       ÀÄÄÄtypes
+³   ³   ÃÄÄÄresolve-uri
+³   ³   ³   ÀÄÄÄdist
+³   ³   ³       ÀÄÄÄtypes
+³   ³   ÃÄÄÄset-array
+³   ³   ³   ÀÄÄÄdist
+³   ³   ³       ÀÄÄÄtypes
+³   ³   ÃÄÄÄsourcemap-codec
+³   ³   ³   ÀÄÄÄdist
+³   ³   ³       ÀÄÄÄtypes
+³   ³   ÀÄÄÄtrace-mapping
+³   ³       ÀÄÄÄdist
+³   ³           ÀÄÄÄtypes
+³   ÃÄÄÄ@nodelib
+³   ³   ÃÄÄÄfs.scandir
+³   ³   ³   ÀÄÄÄout
+³   ³   ³       ÃÄÄÄadapters
+³   ³   ³       ÃÄÄÄproviders
+³   ³   ³       ÃÄÄÄtypes
+³   ³   ³       ÀÄÄÄutils
+³   ³   ÃÄÄÄfs.stat
+³   ³   ³   ÀÄÄÄout
+³   ³   ³       ÃÄÄÄadapters
+³   ³   ³       ÃÄÄÄproviders
+³   ³   ³       ÀÄÄÄtypes
+³   ³   ÀÄÄÄfs.walk
+³   ³       ÀÄÄÄout
+³   ³           ÃÄÄÄproviders
+³   ³           ÃÄÄÄreaders
+³   ³           ÀÄÄÄtypes
+³   ÃÄÄÄ@parcel
+³   ³   ÃÄÄÄwatcher
+³   ³   ÀÄÄÄwatcher-win32-x64
+³   ÃÄÄÄ@pkgjs
+³   ³   ÀÄÄÄparseargs
+³   ³       ÃÄÄÄexamples
+³   ³       ÀÄÄÄinternal
+³   ÃÄÄÄ@popperjs
+³   ³   ÀÄÄÄcore
+³   ³       ÃÄÄÄdist
+³   ³       ³   ÃÄÄÄcjs
+³   ³       ³   ÃÄÄÄesm
+³   ³       ³   ³   ÃÄÄÄdom-utils
+³   ³       ³   ³   ÃÄÄÄmodifiers
+³   ³       ³   ³   ÀÄÄÄutils
+³   ³       ³   ÀÄÄÄumd
+³   ³       ÀÄÄÄlib
+³   ³           ÃÄÄÄdom-utils
+³   ³           ÃÄÄÄmodifiers
+³   ³           ÀÄÄÄutils
+³   ÃÄÄÄ@rollup
+³   ³   ÀÄÄÄrollup-win32-x64-msvc
+³   ÃÄÄÄ@tailwindcss
+³   ³   ÀÄÄÄforms
+³   ³       ÃÄÄÄ.github
+³   ³       ³   ÃÄÄÄISSUE_TEMPLATE
+³   ³       ³   ÀÄÄÄworkflows
+³   ³       ÃÄÄÄscripts
+³   ³       ÀÄÄÄsrc
+³   ÃÄÄÄ@types
+³   ³   ÀÄÄÄestree
+³   ÃÄÄÄ@vitejs
+³   ³   ÀÄÄÄplugin-vue
+³   ³       ÀÄÄÄdist
+³   ÃÄÄÄ@vue
+³   ³   ÃÄÄÄcompiler-core
+³   ³   ³   ÀÄÄÄdist
+³   ³   ÃÄÄÄcompiler-dom
+³   ³   ³   ÀÄÄÄdist
+³   ³   ÃÄÄÄcompiler-sfc
+³   ³   ³   ÀÄÄÄdist
+³   ³   ÃÄÄÄcompiler-ssr
+³   ³   ³   ÀÄÄÄdist
+³   ³   ÃÄÄÄreactivity
+³   ³   ³   ÀÄÄÄdist
+³   ³   ÃÄÄÄruntime-core
+³   ³   ³   ÀÄÄÄdist
+³   ³   ÃÄÄÄruntime-dom
+³   ³   ³   ÀÄÄÄdist
+³   ³   ÃÄÄÄserver-renderer
+³   ³   ³   ÀÄÄÄdist
+³   ³   ÀÄÄÄshared
+³   ³       ÀÄÄÄdist
+³   ÃÄÄÄalpinejs
+³   ³   ÃÄÄÄbuilds
+³   ³   ÃÄÄÄdist
+³   ³   ÃÄÄÄnode_modules
+³   ³   ³   ÀÄÄÄ@vue
+³   ³   ³       ÃÄÄÄreactivity
+³   ³   ³       ³   ÀÄÄÄdist
+³   ³   ³       ÀÄÄÄshared
+³   ³   ³           ÀÄÄÄdist
+³   ³   ÀÄÄÄsrc
+³   ³       ÃÄÄÄdirectives
+³   ³       ÃÄÄÄmagics
+³   ³       ÀÄÄÄutils
+³   ÃÄÄÄansi-regex
+³   ÃÄÄÄansi-styles
+³   ÃÄÄÄany-promise
+³   ³   ÀÄÄÄregister
+³   ÃÄÄÄanymatch
+³   ÃÄÄÄarg
+³   ÃÄÄÄasynckit
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄautoprefixer
+³   ³   ÃÄÄÄbin
+³   ³   ÃÄÄÄdata
+³   ³   ÀÄÄÄlib
+³   ³       ÀÄÄÄhacks
+³   ÃÄÄÄaxios
+³   ³   ÃÄÄÄdist
+³   ³   ³   ÃÄÄÄbrowser
+³   ³   ³   ÃÄÄÄesm
+³   ³   ³   ÀÄÄÄnode
+³   ³   ÀÄÄÄlib
+³   ³       ÃÄÄÄadapters
+³   ³       ÃÄÄÄcancel
+³   ³       ÃÄÄÄcore
+³   ³       ÃÄÄÄdefaults
+³   ³       ÃÄÄÄenv
+³   ³       ³   ÀÄÄÄclasses
+³   ³       ÃÄÄÄhelpers
+³   ³       ÀÄÄÄplatform
+³   ³           ÃÄÄÄbrowser
+³   ³           ³   ÀÄÄÄclasses
+³   ³           ÃÄÄÄcommon
+³   ³           ÀÄÄÄnode
+³   ³               ÀÄÄÄclasses
+³   ÃÄÄÄbalanced-match
+³   ³   ÀÄÄÄ.github
+³   ÃÄÄÄbinary-extensions
+³   ÃÄÄÄbootstrap
+³   ³   ÃÄÄÄdist
+³   ³   ³   ÃÄÄÄcss
+³   ³   ³   ÀÄÄÄjs
+³   ³   ÃÄÄÄjs
+³   ³   ³   ÃÄÄÄdist
+³   ³   ³   ³   ÃÄÄÄdom
+³   ³   ³   ³   ÀÄÄÄutil
+³   ³   ³   ÀÄÄÄsrc
+³   ³   ³       ÃÄÄÄdom
+³   ³   ³       ÀÄÄÄutil
+³   ³   ÀÄÄÄscss
+³   ³       ÃÄÄÄforms
+³   ³       ÃÄÄÄhelpers
+³   ³       ÃÄÄÄmixins
+³   ³       ÃÄÄÄutilities
+³   ³       ÀÄÄÄvendor
+³   ÃÄÄÄbrace-expansion
+³   ³   ÀÄÄÄ.github
+³   ÃÄÄÄbraces
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄbrowserslist
+³   ÃÄÄÄcamelcase-css
+³   ÃÄÄÄcaniuse-lite
+³   ³   ÃÄÄÄdata
+³   ³   ³   ÃÄÄÄfeatures
+³   ³   ³   ÀÄÄÄregions
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄlib
+³   ³       ÀÄÄÄunpacker
+³   ÃÄÄÄchokidar
+³   ³   ÀÄÄÄesm
+³   ÃÄÄÄcolor-convert
+³   ÃÄÄÄcolor-name
+³   ÃÄÄÄcombined-stream
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄcommander
+³   ³   ÀÄÄÄtypings
+³   ÃÄÄÄcross-spawn
+³   ³   ÀÄÄÄlib
+³   ³       ÀÄÄÄutil
+³   ÃÄÄÄcssesc
+³   ³   ÃÄÄÄbin
+³   ³   ÀÄÄÄman
+³   ÃÄÄÄcsstype
+³   ÃÄÄÄdelayed-stream
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄdetect-libc
+³   ³   ÃÄÄÄbin
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄdidyoumean
+³   ÃÄÄÄdlv
+³   ³   ÀÄÄÄdist
+³   ÃÄÄÄeastasianwidth
+³   ÃÄÄÄelectron-to-chromium
+³   ÃÄÄÄemoji-regex
+³   ³   ÀÄÄÄes2015
+³   ÃÄÄÄentities
+³   ³   ÀÄÄÄlib
+³   ³       ÃÄÄÄesm
+³   ³       ³   ÀÄÄÄgenerated
+³   ³       ÀÄÄÄgenerated
+³   ÃÄÄÄesbuild
+³   ³   ÃÄÄÄbin
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄescalade
+³   ³   ÃÄÄÄdist
+³   ³   ÀÄÄÄsync
+³   ÃÄÄÄestree-walker
+³   ³   ÃÄÄÄdist
+³   ³   ³   ÃÄÄÄesm
+³   ³   ³   ÀÄÄÄumd
+³   ³   ÃÄÄÄsrc
+³   ³   ÀÄÄÄtypes
+³   ÃÄÄÄfast-glob
+³   ³   ÃÄÄÄnode_modules
+³   ³   ³   ÀÄÄÄglob-parent
+³   ³   ÀÄÄÄout
+³   ³       ÃÄÄÄmanagers
+³   ³       ÃÄÄÄproviders
+³   ³       ³   ÃÄÄÄfilters
+³   ³       ³   ÃÄÄÄmatchers
+³   ³       ³   ÀÄÄÄtransformers
+³   ³       ÃÄÄÄreaders
+³   ³       ÃÄÄÄtypes
+³   ³       ÀÄÄÄutils
+³   ÃÄÄÄfastq
+³   ³   ÃÄÄÄ.github
+³   ³   ³   ÀÄÄÄworkflows
+³   ³   ÀÄÄÄtest
+³   ÃÄÄÄfill-range
+³   ÃÄÄÄfollow-redirects
+³   ÃÄÄÄforeground-child
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄcommonjs
+³   ³       ÀÄÄÄesm
+³   ÃÄÄÄform-data
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄfraction.js
+³   ÃÄÄÄfunction-bind
+³   ³   ÃÄÄÄ.github
+³   ³   ÀÄÄÄtest
+³   ÃÄÄÄglob
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄcommonjs
+³   ³       ÀÄÄÄesm
+³   ÃÄÄÄglob-parent
+³   ÃÄÄÄhasown
+³   ³   ÀÄÄÄ.github
+³   ÃÄÄÄimmutable
+³   ³   ÀÄÄÄdist
+³   ÃÄÄÄis-binary-path
+³   ÃÄÄÄis-core-module
+³   ³   ÀÄÄÄtest
+³   ÃÄÄÄis-extglob
+³   ÃÄÄÄis-fullwidth-code-point
+³   ÃÄÄÄis-glob
+³   ÃÄÄÄis-number
+³   ÃÄÄÄisexe
+³   ³   ÀÄÄÄtest
+³   ÃÄÄÄjackspeak
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄcommonjs
+³   ³       ÀÄÄÄesm
+³   ÃÄÄÄjiti
+³   ³   ÃÄÄÄbin
+³   ³   ÃÄÄÄdist
+³   ³   ³   ÀÄÄÄplugins
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄlaravel-vite-plugin
+³   ³   ÃÄÄÄbin
+³   ³   ÃÄÄÄdist
+³   ³   ÀÄÄÄinertia-helpers
+³   ÃÄÄÄlilconfig
+³   ³   ÀÄÄÄdist
+³   ÃÄÄÄlines-and-columns
+³   ³   ÀÄÄÄbuild
+³   ÃÄÄÄlru-cache
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄcommonjs
+³   ³       ÀÄÄÄesm
+³   ÃÄÄÄmagic-string
+³   ³   ÀÄÄÄdist
+³   ÃÄÄÄmerge2
+³   ÃÄÄÄmicromatch
+³   ÃÄÄÄmime-db
+³   ÃÄÄÄmime-types
+³   ÃÄÄÄmini-svg-data-uri
+³   ÃÄÄÄminimatch
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄcommonjs
+³   ³       ÀÄÄÄesm
+³   ÃÄÄÄminipass
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄcommonjs
+³   ³       ÀÄÄÄesm
+³   ÃÄÄÄmz
+³   ÃÄÄÄnanoid
+³   ³   ÃÄÄÄasync
+³   ³   ÃÄÄÄbin
+³   ³   ÃÄÄÄnon-secure
+³   ³   ÀÄÄÄurl-alphabet
+³   ÃÄÄÄnode-addon-api
+³   ³   ÀÄÄÄtools
+³   ÃÄÄÄnode-releases
+³   ³   ÀÄÄÄdata
+³   ³       ÃÄÄÄprocessed
+³   ³       ÀÄÄÄrelease-schedule
+³   ÃÄÄÄnormalize-path
+³   ÃÄÄÄnormalize-range
+³   ÃÄÄÄobject-assign
+³   ÃÄÄÄobject-hash
+³   ³   ÀÄÄÄdist
+³   ÃÄÄÄpackage-json-from-dist
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄcommonjs
+³   ³       ÀÄÄÄesm
+³   ÃÄÄÄpath-key
+³   ÃÄÄÄpath-parse
+³   ÃÄÄÄpath-scurry
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄcommonjs
+³   ³       ÀÄÄÄesm
+³   ÃÄÄÄpicocolors
+³   ÃÄÄÄpicomatch
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄpify
+³   ÃÄÄÄpirates
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄpostcss
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄpostcss-import
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄpostcss-js
+³   ÃÄÄÄpostcss-load-config
+³   ³   ÃÄÄÄnode_modules
+³   ³   ³   ÀÄÄÄlilconfig
+³   ³   ³       ÀÄÄÄsrc
+³   ³   ÀÄÄÄsrc
+³   ÃÄÄÄpostcss-nested
+³   ÃÄÄÄpostcss-selector-parser
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄselectors
+³   ³       ÀÄÄÄutil
+³   ÃÄÄÄpostcss-value-parser
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄproxy-from-env
+³   ÃÄÄÄqueue-microtask
+³   ÃÄÄÄread-cache
+³   ÃÄÄÄreaddirp
+³   ³   ÀÄÄÄesm
+³   ÃÄÄÄresolve
+³   ³   ÃÄÄÄ.github
+³   ³   ÃÄÄÄbin
+³   ³   ÃÄÄÄexample
+³   ³   ÃÄÄÄlib
+³   ³   ÀÄÄÄtest
+³   ³       ÃÄÄÄdotdot
+³   ³       ³   ÀÄÄÄabc
+³   ³       ÃÄÄÄmodule_dir
+³   ³       ³   ÃÄÄÄxmodules
+³   ³       ³   ³   ÀÄÄÄaaa
+³   ³       ³   ÃÄÄÄymodules
+³   ³       ³   ³   ÀÄÄÄaaa
+³   ³       ³   ÀÄÄÄzmodules
+³   ³       ³       ÀÄÄÄbbb
+³   ³       ÃÄÄÄnode_path
+³   ³       ³   ÃÄÄÄx
+³   ³       ³   ³   ÃÄÄÄaaa
+³   ³       ³   ³   ÀÄÄÄccc
+³   ³       ³   ÀÄÄÄy
+³   ³       ³       ÃÄÄÄbbb
+³   ³       ³       ÀÄÄÄccc
+³   ³       ÃÄÄÄpathfilter
+³   ³       ³   ÀÄÄÄdeep_ref
+³   ³       ÃÄÄÄprecedence
+³   ³       ³   ÃÄÄÄaaa
+³   ³       ³   ÀÄÄÄbbb
+³   ³       ÃÄÄÄresolver
+³   ³       ³   ÃÄÄÄbaz
+³   ³       ³   ÃÄÄÄbrowser_field
+³   ³       ³   ÃÄÄÄdot_main
+³   ³       ³   ÃÄÄÄdot_slash_main
+³   ³       ³   ÃÄÄÄfalse_main
+³   ³       ³   ÃÄÄÄincorrect_main
+³   ³       ³   ÃÄÄÄinvalid_main
+³   ³       ³   ÃÄÄÄmultirepo
+³   ³       ³   ³   ÀÄÄÄpackages
+³   ³       ³   ³       ÃÄÄÄpackage-a
+³   ³       ³   ³       ÀÄÄÄpackage-b
+³   ³       ³   ÃÄÄÄnested_symlinks
+³   ³       ³   ³   ÀÄÄÄmylib
+³   ³       ³   ÃÄÄÄother_path
+³   ³       ³   ³   ÀÄÄÄlib
+³   ³       ³   ÃÄÄÄquux
+³   ³       ³   ³   ÀÄÄÄfoo
+³   ³       ³   ÃÄÄÄsame_names
+³   ³       ³   ³   ÀÄÄÄfoo
+³   ³       ³   ÃÄÄÄsymlinked
+³   ³       ³   ³   ÃÄÄÄpackage
+³   ³       ³   ³   ÀÄÄÄ_
+³   ³       ³   ³       ÃÄÄÄnode_modules
+³   ³       ³   ³       ÀÄÄÄsymlink_target
+³   ³       ³   ÀÄÄÄwithout_basedir
+³   ³       ÀÄÄÄshadowed_core
+³   ³           ÀÄÄÄnode_modules
+³   ³               ÀÄÄÄutil
+³   ÃÄÄÄreusify
+³   ³   ÀÄÄÄbenchmarks
+³   ÃÄÄÄrollup
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄbin
+³   ³       ÃÄÄÄes
+³   ³       ³   ÀÄÄÄshared
+³   ³       ÀÄÄÄshared
+³   ÃÄÄÄrun-parallel
+³   ÃÄÄÄsass
+³   ³   ÀÄÄÄtypes
+³   ³       ÃÄÄÄlegacy
+³   ³       ÃÄÄÄlogger
+³   ³       ÃÄÄÄutil
+³   ³       ÀÄÄÄvalue
+³   ÃÄÄÄshebang-command
+³   ÃÄÄÄshebang-regex
+³   ÃÄÄÄsignal-exit
+³   ³   ÀÄÄÄdist
+³   ³       ÃÄÄÄcjs
+³   ³       ÀÄÄÄmjs
+³   ÃÄÄÄsource-map-js
+³   ³   ÀÄÄÄlib
+³   ÃÄÄÄstring-width
+³   ÃÄÄÄstring-width-cjs
+³   ³   ÀÄÄÄnode_modules
+³   ³       ÃÄÄÄansi-regex
+³   ³       ÃÄÄÄemoji-regex
+³   ³       ³   ÀÄÄÄes2015
+³   ³       ÀÄÄÄstrip-ansi
+³   ÃÄÄÄstrip-ansi
+³   ÃÄÄÄstrip-ansi-cjs
+³   ³   ÀÄÄÄnode_modules
+³   ³       ÀÄÄÄansi-regex
+³   ÃÄÄÄsucrase
+³   ³   ÃÄÄÄbin
+³   ³   ÃÄÄÄdist
+³   ³   ³   ÃÄÄÄesm
+³   ³   ³   ³   ÃÄÄÄparser
+³   ³   ³   ³   ³   ÃÄÄÄplugins
+³   ³   ³   ³   ³   ³   ÀÄÄÄjsx
+³   ³   ³   ³   ³   ÃÄÄÄtokenizer
+³   ³   ³   ³   ³   ÃÄÄÄtraverser
+³   ³   ³   ³   ³   ÀÄÄÄutil
+³   ³   ³   ³   ÃÄÄÄtransformers
+³   ³   ³   ³   ÀÄÄÄutil
+³   ³   ³   ÃÄÄÄparser
+³   ³   ³   ³   ÃÄÄÄplugins
+³   ³   ³   ³   ³   ÀÄÄÄjsx
+³   ³   ³   ³   ÃÄÄÄtokenizer
+³   ³   ³   ³   ÃÄÄÄtraverser
+³   ³   ³   ³   ÀÄÄÄutil
+³   ³   ³   ÃÄÄÄtransformers
+³   ³   ³   ÃÄÄÄtypes
+³   ³   ³   ³   ÃÄÄÄparser
+³   ³   ³   ³   ³   ÃÄÄÄplugins
+³   ³   ³   ³   ³   ³   ÀÄÄÄjsx
+³   ³   ³   ³   ³   ÃÄÄÄtokenizer
+³   ³   ³   ³   ³   ÃÄÄÄtraverser
+³   ³   ³   ³   ³   ÀÄÄÄutil
+³   ³   ³   ³   ÃÄÄÄtransformers
+³   ³   ³   ³   ÀÄÄÄutil
+³   ³   ³   ÀÄÄÄutil
+³   ³   ÃÄÄÄregister
+³   ³   ÀÄÄÄts-node-plugin
+³   ÃÄÄÄsupports-preserve-symlinks-flag
+³   ³   ÃÄÄÄ.github
+³   ³   ÀÄÄÄtest
+³   ÃÄÄÄtailwindcss
+³   ³   ÃÄÄÄlib
+³   ³   ³   ÃÄÄÄcli
+³   ³   ³   ³   ÃÄÄÄbuild
+³   ³   ³   ³   ÃÄÄÄhelp
+³   ³   ³   ³   ÀÄÄÄinit
+³   ³   ³   ÃÄÄÄcss
+³   ³   ³   ÃÄÄÄlib
+³   ³   ³   ÃÄÄÄpostcss-plugins
+³   ³   ³   ³   ÀÄÄÄnesting
+³   ³   ³   ÃÄÄÄpublic
+³   ³   ³   ÃÄÄÄutil
+³   ³   ³   ÀÄÄÄvalue-parser
+³   ³   ÃÄÄÄnesting
+³   ³   ÃÄÄÄnode_modules
+³   ³   ³   ÃÄÄÄchokidar
+³   ³   ³   ³   ÃÄÄÄlib
+³   ³   ³   ³   ÃÄÄÄnode_modules
+³   ³   ³   ³   ³   ÀÄÄÄglob-parent
+³   ³   ³   ³   ÀÄÄÄtypes
+³   ³   ³   ÀÄÄÄreaddirp
+³   ³   ÃÄÄÄpeers
+³   ³   ÃÄÄÄscripts
+³   ³   ÃÄÄÄsrc
+³   ³   ³   ÃÄÄÄcli
+³   ³   ³   ³   ÃÄÄÄbuild
+³   ³   ³   ³   ÃÄÄÄhelp
+³   ³   ³   ³   ÀÄÄÄinit
+³   ³   ³   ÃÄÄÄcss
+³   ³   ³   ÃÄÄÄlib
+³   ³   ³   ÃÄÄÄpostcss-plugins
+³   ³   ³   ³   ÀÄÄÄnesting
+³   ³   ³   ÃÄÄÄpublic
+³   ³   ³   ÃÄÄÄutil
+³   ³   ³   ÀÄÄÄvalue-parser
+³   ³   ÃÄÄÄstubs
+³   ³   ÀÄÄÄtypes
+³   ³       ÀÄÄÄgenerated
+³   ÃÄÄÄthenify
+³   ÃÄÄÄthenify-all
+³   ÃÄÄÄto-fast-properties
+³   ÃÄÄÄto-regex-range
+³   ÃÄÄÄts-interface-checker
+³   ³   ÀÄÄÄdist
+³   ÃÄÄÄupdate-browserslist-db
+³   ÃÄÄÄutil-deprecate
+³   ÃÄÄÄvite
+³   ³   ÃÄÄÄbin
+³   ³   ÃÄÄÄdist
+³   ³   ³   ÃÄÄÄclient
+³   ³   ³   ÃÄÄÄnode
+³   ³   ³   ³   ÀÄÄÄchunks
+³   ³   ³   ÀÄÄÄnode-cjs
+³   ³   ÀÄÄÄtypes
+³   ÃÄÄÄvite-plugin-full-reload
+³   ³   ÀÄÄÄdist
+³   ÃÄÄÄvue
+³   ³   ÃÄÄÄcompiler-sfc
+³   ³   ÃÄÄÄdist
+³   ³   ÃÄÄÄjsx-runtime
+³   ³   ÀÄÄÄserver-renderer
+³   ÃÄÄÄwhich
+³   ³   ÀÄÄÄbin
+³   ÃÄÄÄwrap-ansi
+³   ÃÄÄÄwrap-ansi-cjs
+³   ³   ÀÄÄÄnode_modules
+³   ³       ÃÄÄÄansi-regex
+³   ³       ÃÄÄÄansi-styles
+³   ³       ÃÄÄÄemoji-regex
+³   ³       ³   ÀÄÄÄes2015
+³   ³       ÃÄÄÄstring-width
+³   ³       ÀÄÄÄstrip-ansi
+³   ÀÄÄÄyaml
+³       ÃÄÄÄbrowser
+³       ³   ÀÄÄÄdist
+³       ³       ÃÄÄÄcompose
+³       ³       ÃÄÄÄdoc
+³       ³       ÃÄÄÄnodes
+³       ³       ÃÄÄÄparse
+³       ³       ÃÄÄÄschema
+³       ³       ³   ÃÄÄÄcommon
+³       ³       ³   ÃÄÄÄcore
+³       ³       ³   ÃÄÄÄjson
+³       ³       ³   ÀÄÄÄyaml-1.1
+³       ³       ÀÄÄÄstringify
+³       ÀÄÄÄdist
+³           ÃÄÄÄcompose
+³           ÃÄÄÄdoc
+³           ÃÄÄÄnodes
+³           ÃÄÄÄparse
+³           ÃÄÄÄschema
+³           ³   ÃÄÄÄcommon
+³           ³   ÃÄÄÄcore
+³           ³   ÃÄÄÄjson
+³           ³   ÀÄÄÄyaml-1.1
+³           ÀÄÄÄstringify
+ÃÄÄÄpublic
+³   ÃÄÄÄbuild
+³   ³   ÀÄÄÄassets
+³   ÃÄÄÄcss
+³   ÃÄÄÄfonts
+³   ÃÄÄÄimages
+³   ÀÄÄÄjs
+ÃÄÄÄresources
+³   ÃÄÄÄcss
+³   ÃÄÄÄjs
+³   ³   ÀÄÄÄcomponents
+³   ÃÄÄÄsass
+³   ÀÄÄÄviews
+³       ÃÄÄÄarticulos
+³       ÃÄÄÄauth
+³       ³   ÀÄÄÄpasswords
+³       ÃÄÄÄcomponents
+³       ÃÄÄÄincludes
+³       ÃÄÄÄlayouts
+³       ÃÄÄÄprofile
+³       ³   ÀÄÄÄpartials
+³       ÀÄÄÄtienda
+³           ÀÄÄÄventas
+ÃÄÄÄroutes
+ÃÄÄÄstorage
+³   ÃÄÄÄapp
+³   ³   ÃÄÄÄprivate
+³   ³   ÀÄÄÄpublic
+³   ÃÄÄÄframework
+³   ³   ÃÄÄÄcache
+³   ³   ³   ÀÄÄÄdata
+³   ³   ÃÄÄÄsessions
+³   ³   ÃÄÄÄtesting
+³   ³   ÀÄÄÄviews
+³   ÀÄÄÄlogs
+ÃÄÄÄtests
+³   ÃÄÄÄFeature
+³   ³   ÀÄÄÄAuth
+³   ÀÄÄÄUnit
+ÀÄÄÄvendor
+    ÃÄÄÄbin
+    ÃÄÄÄbrianium
+    ³   ÀÄÄÄparatest
+    ³       ÃÄÄÄbin
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄCoverage
+    ³           ÃÄÄÄJUnit
+    ³           ÃÄÄÄUtil
+    ³           ÀÄÄÄWrapperRunner
+    ÃÄÄÄbrick
+    ³   ÀÄÄÄmath
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄException
+    ³           ÀÄÄÄInternal
+    ³               ÀÄÄÄCalculator
+    ÃÄÄÄcarbonphp
+    ³   ÀÄÄÄcarbon-doctrine-types
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄCarbon
+    ³               ÀÄÄÄDoctrine
+    ÃÄÄÄcomposer
+    ÃÄÄÄdflydev
+    ³   ÀÄÄÄdot-access-data
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄException
+    ÃÄÄÄdoctrine
+    ³   ÃÄÄÄdeprecations
+    ³   ³   ÀÄÄÄlib
+    ³   ³       ÀÄÄÄDoctrine
+    ³   ³           ÀÄÄÄDeprecations
+    ³   ³               ÀÄÄÄPHPUnit
+    ³   ÃÄÄÄinflector
+    ³   ³   ÃÄÄÄdocs
+    ³   ³   ³   ÀÄÄÄen
+    ³   ³   ÀÄÄÄlib
+    ³   ³       ÀÄÄÄDoctrine
+    ³   ³           ÀÄÄÄInflector
+    ³   ³               ÀÄÄÄRules
+    ³   ³                   ÃÄÄÄEnglish
+    ³   ³                   ÃÄÄÄFrench
+    ³   ³                   ÃÄÄÄNorwegianBokmal
+    ³   ³                   ÃÄÄÄPortuguese
+    ³   ³                   ÃÄÄÄSpanish
+    ³   ³                   ÀÄÄÄTurkish
+    ³   ÀÄÄÄlexer
+    ³       ÀÄÄÄsrc
+    ÃÄÄÄdragonmantank
+    ³   ÀÄÄÄcron-expression
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄCron
+    ÃÄÄÄegulias
+    ³   ÀÄÄÄemail-validator
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄParser
+    ³           ³   ÀÄÄÄCommentStrategy
+    ³           ÃÄÄÄResult
+    ³           ³   ÀÄÄÄReason
+    ³           ÃÄÄÄValidation
+    ³           ³   ÃÄÄÄException
+    ³           ³   ÀÄÄÄExtra
+    ³           ÀÄÄÄWarning
+    ÃÄÄÄfakerphp
+    ³   ÀÄÄÄfaker
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄFaker
+    ³               ÃÄÄÄCalculator
+    ³               ÃÄÄÄContainer
+    ³               ÃÄÄÄCore
+    ³               ÃÄÄÄExtension
+    ³               ÃÄÄÄGuesser
+    ³               ÃÄÄÄORM
+    ³               ³   ÃÄÄÄCakePHP
+    ³               ³   ÃÄÄÄDoctrine
+    ³               ³   ÃÄÄÄMandango
+    ³               ³   ÃÄÄÄPropel
+    ³               ³   ÃÄÄÄPropel2
+    ³               ³   ÀÄÄÄSpot
+    ³               ÀÄÄÄProvider
+    ³                   ÃÄÄÄar_EG
+    ³                   ÃÄÄÄar_JO
+    ³                   ÃÄÄÄar_SA
+    ³                   ÃÄÄÄat_AT
+    ³                   ÃÄÄÄbg_BG
+    ³                   ÃÄÄÄbn_BD
+    ³                   ÃÄÄÄcs_CZ
+    ³                   ÃÄÄÄda_DK
+    ³                   ÃÄÄÄde_AT
+    ³                   ÃÄÄÄde_CH
+    ³                   ÃÄÄÄde_DE
+    ³                   ÃÄÄÄel_CY
+    ³                   ÃÄÄÄel_GR
+    ³                   ÃÄÄÄen_AU
+    ³                   ÃÄÄÄen_CA
+    ³                   ÃÄÄÄen_GB
+    ³                   ÃÄÄÄen_HK
+    ³                   ÃÄÄÄen_IN
+    ³                   ÃÄÄÄen_NG
+    ³                   ÃÄÄÄen_NZ
+    ³                   ÃÄÄÄen_PH
+    ³                   ÃÄÄÄen_SG
+    ³                   ÃÄÄÄen_UG
+    ³                   ÃÄÄÄen_US
+    ³                   ÃÄÄÄen_ZA
+    ³                   ÃÄÄÄes_AR
+    ³                   ÃÄÄÄes_ES
+    ³                   ÃÄÄÄes_PE
+    ³                   ÃÄÄÄes_VE
+    ³                   ÃÄÄÄet_EE
+    ³                   ÃÄÄÄfa_IR
+    ³                   ÃÄÄÄfi_FI
+    ³                   ÃÄÄÄfr_BE
+    ³                   ÃÄÄÄfr_CA
+    ³                   ÃÄÄÄfr_CH
+    ³                   ÃÄÄÄfr_FR
+    ³                   ÃÄÄÄhe_IL
+    ³                   ÃÄÄÄhr_HR
+    ³                   ÃÄÄÄhu_HU
+    ³                   ÃÄÄÄhy_AM
+    ³                   ÃÄÄÄid_ID
+    ³                   ÃÄÄÄis_IS
+    ³                   ÃÄÄÄit_CH
+    ³                   ÃÄÄÄit_IT
+    ³                   ÃÄÄÄja_JP
+    ³                   ÃÄÄÄka_GE
+    ³                   ÃÄÄÄkk_KZ
+    ³                   ÃÄÄÄko_KR
+    ³                   ÃÄÄÄlt_LT
+    ³                   ÃÄÄÄlv_LV
+    ³                   ÃÄÄÄme_ME
+    ³                   ÃÄÄÄmn_MN
+    ³                   ÃÄÄÄms_MY
+    ³                   ÃÄÄÄnb_NO
+    ³                   ÃÄÄÄne_NP
+    ³                   ÃÄÄÄnl_BE
+    ³                   ÃÄÄÄnl_NL
+    ³                   ÃÄÄÄpl_PL
+    ³                   ÃÄÄÄpt_BR
+    ³                   ÃÄÄÄpt_PT
+    ³                   ÃÄÄÄro_MD
+    ³                   ÃÄÄÄro_RO
+    ³                   ÃÄÄÄru_RU
+    ³                   ÃÄÄÄsk_SK
+    ³                   ÃÄÄÄsl_SI
+    ³                   ÃÄÄÄsr_Cyrl_RS
+    ³                   ÃÄÄÄsr_Latn_RS
+    ³                   ÃÄÄÄsr_RS
+    ³                   ÃÄÄÄsv_SE
+    ³                   ÃÄÄÄth_TH
+    ³                   ÃÄÄÄtr_TR
+    ³                   ÃÄÄÄuk_UA
+    ³                   ÃÄÄÄvi_VN
+    ³                   ÃÄÄÄzh_CN
+    ³                   ÀÄÄÄzh_TW
+    ÃÄÄÄfidry
+    ³   ÀÄÄÄcpu-core-counter
+    ³       ÃÄÄÄbin
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄExecutor
+    ³           ÀÄÄÄFinder
+    ÃÄÄÄfilp
+    ³   ÀÄÄÄwhoops
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄWhoops
+    ³               ÃÄÄÄException
+    ³               ÃÄÄÄHandler
+    ³               ÃÄÄÄInspector
+    ³               ÃÄÄÄResources
+    ³               ³   ÃÄÄÄcss
+    ³               ³   ÃÄÄÄjs
+    ³               ³   ÀÄÄÄviews
+    ³               ÀÄÄÄUtil
+    ÃÄÄÄfruitcake
+    ³   ÀÄÄÄphp-cors
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄExceptions
+    ÃÄÄÄgraham-campbell
+    ³   ÀÄÄÄresult-type
+    ³       ÀÄÄÄsrc
+    ÃÄÄÄguzzlehttp
+    ³   ÃÄÄÄguzzle
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄCookie
+    ³   ³       ÃÄÄÄException
+    ³   ³       ÀÄÄÄHandler
+    ³   ÃÄÄÄpromises
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄpsr7
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄException
+    ³   ÀÄÄÄuri-template
+    ³       ÀÄÄÄsrc
+    ÃÄÄÄhamcrest
+    ³   ÀÄÄÄhamcrest-php
+    ³       ÃÄÄÄ.github
+    ³       ³   ÀÄÄÄworkflows
+    ³       ÃÄÄÄgenerator
+    ³       ³   ÀÄÄÄparts
+    ³       ÃÄÄÄhamcrest
+    ³       ³   ÀÄÄÄHamcrest
+    ³       ³       ÃÄÄÄArrays
+    ³       ³       ÃÄÄÄCollection
+    ³       ³       ÃÄÄÄCore
+    ³       ³       ÃÄÄÄInternal
+    ³       ³       ÃÄÄÄNumber
+    ³       ³       ÃÄÄÄText
+    ³       ³       ÃÄÄÄType
+    ³       ³       ÀÄÄÄXml
+    ³       ÀÄÄÄtests
+    ³           ÀÄÄÄHamcrest
+    ³               ÃÄÄÄArray
+    ³               ÃÄÄÄCollection
+    ³               ÃÄÄÄCore
+    ³               ÃÄÄÄNumber
+    ³               ÃÄÄÄText
+    ³               ÃÄÄÄType
+    ³               ÀÄÄÄXml
+    ÃÄÄÄjean85
+    ³   ÀÄÄÄpretty-package-versions
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄException
+    ÃÄÄÄkitloong
+    ³   ÀÄÄÄlaravel-migrations-generator
+    ³       ÃÄÄÄconfig
+    ³       ÃÄÄÄsrc
+    ³       ³   ÃÄÄÄDatabase
+    ³       ³   ³   ÀÄÄÄModels
+    ³       ³   ³       ÃÄÄÄMySQL
+    ³       ³   ³       ÃÄÄÄPgSQL
+    ³       ³   ³       ÃÄÄÄSQLite
+    ³       ³   ³       ÀÄÄÄSQLSrv
+    ³       ³   ÃÄÄÄEnum
+    ³       ³   ³   ÀÄÄÄMigrations
+    ³       ³   ³       ÃÄÄÄMethod
+    ³       ³   ³       ÀÄÄÄProperty
+    ³       ³   ÃÄÄÄMigration
+    ³       ³   ³   ÃÄÄÄBlueprint
+    ³       ³   ³   ³   ÀÄÄÄSupport
+    ³       ³   ³   ÃÄÄÄEnum
+    ³       ³   ³   ÃÄÄÄGenerator
+    ³       ³   ³   ³   ÃÄÄÄColumns
+    ³       ³   ³   ³   ÀÄÄÄModifiers
+    ³       ³   ³   ÃÄÄÄMigrator
+    ³       ³   ³   ÀÄÄÄWriter
+    ³       ³   ÃÄÄÄRepositories
+    ³       ³   ³   ÀÄÄÄEntities
+    ³       ³   ³       ÃÄÄÄMariaDB
+    ³       ³   ³       ÃÄÄÄMySQL
+    ³       ³   ³       ÃÄÄÄPgSQL
+    ³       ³   ³       ÀÄÄÄSQLSrv
+    ³       ³   ÃÄÄÄSchema
+    ³       ³   ³   ÀÄÄÄModels
+    ³       ³   ÀÄÄÄSupport
+    ³       ÀÄÄÄstubs
+    ÃÄÄÄlaravel
+    ³   ÃÄÄÄbreeze
+    ³   ³   ÃÄÄÄsrc
+    ³   ³   ³   ÀÄÄÄConsole
+    ³   ³   ÀÄÄÄstubs
+    ³   ³       ÃÄÄÄapi
+    ³   ³       ³   ÃÄÄÄapp
+    ³   ³       ³   ³   ÃÄÄÄHttp
+    ³   ³       ³   ³   ³   ÃÄÄÄControllers
+    ³   ³       ³   ³   ³   ³   ÀÄÄÄAuth
+    ³   ³       ³   ³   ³   ÃÄÄÄMiddleware
+    ³   ³       ³   ³   ³   ÀÄÄÄRequests
+    ³   ³       ³   ³   ³       ÀÄÄÄAuth
+    ³   ³       ³   ³   ÀÄÄÄProviders
+    ³   ³       ³   ÃÄÄÄconfig
+    ³   ³       ³   ÃÄÄÄpest-tests
+    ³   ³       ³   ³   ÃÄÄÄFeature
+    ³   ³       ³   ³   ³   ÀÄÄÄAuth
+    ³   ³       ³   ³   ÀÄÄÄUnit
+    ³   ³       ³   ÃÄÄÄroutes
+    ³   ³       ³   ÀÄÄÄtests
+    ³   ³       ³       ÀÄÄÄFeature
+    ³   ³       ³           ÀÄÄÄAuth
+    ³   ³       ÃÄÄÄdefault
+    ³   ³       ³   ÃÄÄÄapp
+    ³   ³       ³   ³   ÃÄÄÄHttp
+    ³   ³       ³   ³   ³   ÃÄÄÄControllers
+    ³   ³       ³   ³   ³   ³   ÀÄÄÄAuth
+    ³   ³       ³   ³   ³   ÀÄÄÄRequests
+    ³   ³       ³   ³   ³       ÀÄÄÄAuth
+    ³   ³       ³   ³   ÀÄÄÄView
+    ³   ³       ³   ³       ÀÄÄÄComponents
+    ³   ³       ³   ÃÄÄÄpest-tests
+    ³   ³       ³   ³   ÃÄÄÄFeature
+    ³   ³       ³   ³   ³   ÀÄÄÄAuth
+    ³   ³       ³   ³   ÀÄÄÄUnit
+    ³   ³       ³   ÃÄÄÄresources
+    ³   ³       ³   ³   ÃÄÄÄcss
+    ³   ³       ³   ³   ÃÄÄÄjs
+    ³   ³       ³   ³   ÀÄÄÄviews
+    ³   ³       ³   ³       ÃÄÄÄauth
+    ³   ³       ³   ³       ÃÄÄÄcomponents
+    ³   ³       ³   ³       ÃÄÄÄlayouts
+    ³   ³       ³   ³       ÀÄÄÄprofile
+    ³   ³       ³   ³           ÀÄÄÄpartials
+    ³   ³       ³   ÃÄÄÄroutes
+    ³   ³       ³   ÀÄÄÄtests
+    ³   ³       ³       ÀÄÄÄFeature
+    ³   ³       ³           ÀÄÄÄAuth
+    ³   ³       ÃÄÄÄinertia-common
+    ³   ³       ³   ÃÄÄÄapp
+    ³   ³       ³   ³   ÃÄÄÄHttp
+    ³   ³       ³   ³   ³   ÃÄÄÄControllers
+    ³   ³       ³   ³   ³   ³   ÀÄÄÄAuth
+    ³   ³       ³   ³   ³   ÀÄÄÄMiddleware
+    ³   ³       ³   ³   ÀÄÄÄProviders
+    ³   ³       ³   ÃÄÄÄpest-tests
+    ³   ³       ³   ³   ÀÄÄÄFeature
+    ³   ³       ³   ³       ÀÄÄÄAuth
+    ³   ³       ³   ÃÄÄÄroutes
+    ³   ³       ³   ÀÄÄÄtests
+    ³   ³       ³       ÀÄÄÄFeature
+    ³   ³       ³           ÀÄÄÄAuth
+    ³   ³       ÃÄÄÄinertia-react
+    ³   ³       ³   ÀÄÄÄresources
+    ³   ³       ³       ÃÄÄÄjs
+    ³   ³       ³       ³   ÃÄÄÄComponents
+    ³   ³       ³       ³   ÃÄÄÄLayouts
+    ³   ³       ³       ³   ÀÄÄÄPages
+    ³   ³       ³       ³       ÃÄÄÄAuth
+    ³   ³       ³       ³       ÀÄÄÄProfile
+    ³   ³       ³       ³           ÀÄÄÄPartials
+    ³   ³       ³       ÀÄÄÄviews
+    ³   ³       ÃÄÄÄinertia-react-ts
+    ³   ³       ³   ÀÄÄÄresources
+    ³   ³       ³       ÀÄÄÄjs
+    ³   ³       ³           ÃÄÄÄComponents
+    ³   ³       ³           ÃÄÄÄLayouts
+    ³   ³       ³           ÃÄÄÄPages
+    ³   ³       ³           ³   ÃÄÄÄAuth
+    ³   ³       ³           ³   ÀÄÄÄProfile
+    ³   ³       ³           ³       ÀÄÄÄPartials
+    ³   ³       ³           ÀÄÄÄtypes
+    ³   ³       ÃÄÄÄinertia-vue
+    ³   ³       ³   ÀÄÄÄresources
+    ³   ³       ³       ÃÄÄÄjs
+    ³   ³       ³       ³   ÃÄÄÄComponents
+    ³   ³       ³       ³   ÃÄÄÄLayouts
+    ³   ³       ³       ³   ÀÄÄÄPages
+    ³   ³       ³       ³       ÃÄÄÄAuth
+    ³   ³       ³       ³       ÀÄÄÄProfile
+    ³   ³       ³       ³           ÀÄÄÄPartials
+    ³   ³       ³       ÀÄÄÄviews
+    ³   ³       ÃÄÄÄinertia-vue-ts
+    ³   ³       ³   ÀÄÄÄresources
+    ³   ³       ³       ÀÄÄÄjs
+    ³   ³       ³           ÃÄÄÄComponents
+    ³   ³       ³           ÃÄÄÄLayouts
+    ³   ³       ³           ÃÄÄÄPages
+    ³   ³       ³           ³   ÃÄÄÄAuth
+    ³   ³       ³           ³   ÀÄÄÄProfile
+    ³   ³       ³           ³       ÀÄÄÄPartials
+    ³   ³       ³           ÀÄÄÄtypes
+    ³   ³       ÃÄÄÄlivewire
+    ³   ³       ³   ÀÄÄÄresources
+    ³   ³       ³       ÀÄÄÄviews
+    ³   ³       ³           ÀÄÄÄlivewire
+    ³   ³       ³               ÃÄÄÄlayout
+    ³   ³       ³               ÃÄÄÄpages
+    ³   ³       ³               ³   ÀÄÄÄauth
+    ³   ³       ³               ÃÄÄÄprofile
+    ³   ³       ³               ÀÄÄÄwelcome
+    ³   ³       ÃÄÄÄlivewire-common
+    ³   ³       ³   ÃÄÄÄapp
+    ³   ³       ³   ³   ÀÄÄÄLivewire
+    ³   ³       ³   ³       ÃÄÄÄActions
+    ³   ³       ³   ³       ÀÄÄÄForms
+    ³   ³       ³   ÃÄÄÄpest-tests
+    ³   ³       ³   ³   ÃÄÄÄFeature
+    ³   ³       ³   ³   ³   ÀÄÄÄAuth
+    ³   ³       ³   ³   ÀÄÄÄUnit
+    ³   ³       ³   ÃÄÄÄresources
+    ³   ³       ³   ³   ÀÄÄÄviews
+    ³   ³       ³   ³       ÃÄÄÄcomponents
+    ³   ³       ³   ³       ÀÄÄÄlayouts
+    ³   ³       ³   ÃÄÄÄroutes
+    ³   ³       ³   ÀÄÄÄtests
+    ³   ³       ³       ÀÄÄÄFeature
+    ³   ³       ³           ÀÄÄÄAuth
+    ³   ³       ÀÄÄÄlivewire-functional
+    ³   ³           ÀÄÄÄresources
+    ³   ³               ÀÄÄÄviews
+    ³   ³                   ÀÄÄÄlivewire
+    ³   ³                       ÃÄÄÄlayout
+    ³   ³                       ÃÄÄÄpages
+    ³   ³                       ³   ÀÄÄÄauth
+    ³   ³                       ÃÄÄÄprofile
+    ³   ³                       ÀÄÄÄwelcome
+    ³   ÃÄÄÄframework
+    ³   ³   ÃÄÄÄconfig
+    ³   ³   ÃÄÄÄconfig-stubs
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄIlluminate
+    ³   ³           ÃÄÄÄAuth
+    ³   ³           ³   ÃÄÄÄAccess
+    ³   ³           ³   ³   ÀÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄConsole
+    ³   ³           ³   ³   ÀÄÄÄstubs
+    ³   ³           ³   ³       ÀÄÄÄmake
+    ³   ³           ³   ³           ÀÄÄÄviews
+    ³   ³           ³   ³               ÀÄÄÄlayouts
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄListeners
+    ³   ³           ³   ÃÄÄÄMiddleware
+    ³   ³           ³   ÃÄÄÄNotifications
+    ³   ³           ³   ÀÄÄÄPasswords
+    ³   ³           ÃÄÄÄBroadcasting
+    ³   ³           ³   ÀÄÄÄBroadcasters
+    ³   ³           ÃÄÄÄBus
+    ³   ³           ³   ÀÄÄÄEvents
+    ³   ³           ÃÄÄÄCache
+    ³   ³           ³   ÃÄÄÄConsole
+    ³   ³           ³   ³   ÀÄÄÄstubs
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÀÄÄÄRateLimiting
+    ³   ³           ÃÄÄÄCollections
+    ³   ³           ³   ÀÄÄÄTraits
+    ³   ³           ÃÄÄÄConcurrency
+    ³   ³           ³   ÀÄÄÄConsole
+    ³   ³           ÃÄÄÄConditionable
+    ³   ³           ³   ÀÄÄÄTraits
+    ³   ³           ÃÄÄÄConfig
+    ³   ³           ÃÄÄÄConsole
+    ³   ³           ³   ÃÄÄÄConcerns
+    ³   ³           ³   ÃÄÄÄContracts
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄresources
+    ³   ³           ³   ³   ÀÄÄÄviews
+    ³   ³           ³   ³       ÀÄÄÄcomponents
+    ³   ³           ³   ÃÄÄÄScheduling
+    ³   ³           ³   ÀÄÄÄView
+    ³   ³           ³       ÀÄÄÄComponents
+    ³   ³           ³           ÀÄÄÄMutators
+    ³   ³           ÃÄÄÄContainer
+    ³   ³           ³   ÀÄÄÄAttributes
+    ³   ³           ÃÄÄÄContracts
+    ³   ³           ³   ÃÄÄÄAuth
+    ³   ³           ³   ³   ÃÄÄÄAccess
+    ³   ³           ³   ³   ÀÄÄÄMiddleware
+    ³   ³           ³   ÃÄÄÄBroadcasting
+    ³   ³           ³   ÃÄÄÄBus
+    ³   ³           ³   ÃÄÄÄCache
+    ³   ³           ³   ÃÄÄÄConcurrency
+    ³   ³           ³   ÃÄÄÄConfig
+    ³   ³           ³   ÃÄÄÄConsole
+    ³   ³           ³   ÃÄÄÄContainer
+    ³   ³           ³   ÃÄÄÄCookie
+    ³   ³           ³   ÃÄÄÄDatabase
+    ³   ³           ³   ³   ÃÄÄÄEloquent
+    ³   ³           ³   ³   ÃÄÄÄEvents
+    ³   ³           ³   ³   ÀÄÄÄQuery
+    ³   ³           ³   ÃÄÄÄDebug
+    ³   ³           ³   ÃÄÄÄEncryption
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄFilesystem
+    ³   ³           ³   ÃÄÄÄFoundation
+    ³   ³           ³   ÃÄÄÄHashing
+    ³   ³           ³   ÃÄÄÄHttp
+    ³   ³           ³   ÃÄÄÄMail
+    ³   ³           ³   ÃÄÄÄNotifications
+    ³   ³           ³   ÃÄÄÄPagination
+    ³   ³           ³   ÃÄÄÄPipeline
+    ³   ³           ³   ÃÄÄÄProcess
+    ³   ³           ³   ÃÄÄÄQueue
+    ³   ³           ³   ÃÄÄÄRedis
+    ³   ³           ³   ÃÄÄÄRouting
+    ³   ³           ³   ÃÄÄÄSession
+    ³   ³           ³   ³   ÀÄÄÄMiddleware
+    ³   ³           ³   ÃÄÄÄSupport
+    ³   ³           ³   ÃÄÄÄTranslation
+    ³   ³           ³   ÃÄÄÄValidation
+    ³   ³           ³   ÀÄÄÄView
+    ³   ³           ÃÄÄÄCookie
+    ³   ³           ³   ÀÄÄÄMiddleware
+    ³   ³           ÃÄÄÄDatabase
+    ³   ³           ³   ÃÄÄÄCapsule
+    ³   ³           ³   ÃÄÄÄConcerns
+    ³   ³           ³   ÃÄÄÄConnectors
+    ³   ³           ³   ÃÄÄÄConsole
+    ³   ³           ³   ³   ÃÄÄÄFactories
+    ³   ³           ³   ³   ³   ÀÄÄÄstubs
+    ³   ³           ³   ³   ÃÄÄÄMigrations
+    ³   ³           ³   ³   ÀÄÄÄSeeds
+    ³   ³           ³   ³       ÀÄÄÄstubs
+    ³   ³           ³   ÃÄÄÄEloquent
+    ³   ³           ³   ³   ÃÄÄÄAttributes
+    ³   ³           ³   ³   ÃÄÄÄCasts
+    ³   ³           ³   ³   ÃÄÄÄConcerns
+    ³   ³           ³   ³   ÃÄÄÄFactories
+    ³   ³           ³   ³   ÀÄÄÄRelations
+    ³   ³           ³   ³       ÀÄÄÄConcerns
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄMigrations
+    ³   ³           ³   ³   ÀÄÄÄstubs
+    ³   ³           ³   ÃÄÄÄQuery
+    ³   ³           ³   ³   ÃÄÄÄGrammars
+    ³   ³           ³   ³   ÀÄÄÄProcessors
+    ³   ³           ³   ÀÄÄÄSchema
+    ³   ³           ³       ÀÄÄÄGrammars
+    ³   ³           ÃÄÄÄEncryption
+    ³   ³           ÃÄÄÄEvents
+    ³   ³           ÃÄÄÄFilesystem
+    ³   ³           ÃÄÄÄFoundation
+    ³   ³           ³   ÃÄÄÄAuth
+    ³   ³           ³   ³   ÀÄÄÄAccess
+    ³   ³           ³   ÃÄÄÄBootstrap
+    ³   ³           ³   ÃÄÄÄBus
+    ³   ³           ³   ÃÄÄÄConcerns
+    ³   ³           ³   ÃÄÄÄConfiguration
+    ³   ³           ³   ÃÄÄÄConsole
+    ³   ³           ³   ³   ÀÄÄÄstubs
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄExceptions
+    ³   ³           ³   ³   ÃÄÄÄRenderer
+    ³   ³           ³   ³   ³   ÀÄÄÄMappers
+    ³   ³           ³   ³   ÃÄÄÄviews
+    ³   ³           ³   ³   ÀÄÄÄWhoops
+    ³   ³           ³   ÃÄÄÄHttp
+    ³   ³           ³   ³   ÃÄÄÄEvents
+    ³   ³           ³   ³   ÀÄÄÄMiddleware
+    ³   ³           ³   ³       ÀÄÄÄConcerns
+    ³   ³           ³   ÃÄÄÄProviders
+    ³   ³           ³   ÃÄÄÄQueue
+    ³   ³           ³   ÃÄÄÄresources
+    ³   ³           ³   ³   ÀÄÄÄexceptions
+    ³   ³           ³   ³       ÀÄÄÄrenderer
+    ³   ³           ³   ³           ÃÄÄÄcomponents
+    ³   ³           ³   ³           ³   ÀÄÄÄicons
+    ³   ³           ³   ³           ÀÄÄÄdist
+    ³   ³           ³   ÃÄÄÄRouting
+    ³   ³           ³   ÃÄÄÄstubs
+    ³   ³           ³   ÃÄÄÄSupport
+    ³   ³           ³   ³   ÀÄÄÄProviders
+    ³   ³           ³   ÃÄÄÄTesting
+    ³   ³           ³   ³   ÃÄÄÄConcerns
+    ³   ³           ³   ³   ÀÄÄÄTraits
+    ³   ³           ³   ÀÄÄÄValidation
+    ³   ³           ÃÄÄÄHashing
+    ³   ³           ÃÄÄÄHttp
+    ³   ³           ³   ÃÄÄÄClient
+    ³   ³           ³   ³   ÃÄÄÄConcerns
+    ³   ³           ³   ³   ÀÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄConcerns
+    ³   ³           ³   ÃÄÄÄExceptions
+    ³   ³           ³   ÃÄÄÄMiddleware
+    ³   ³           ³   ÃÄÄÄResources
+    ³   ³           ³   ³   ÀÄÄÄJson
+    ³   ³           ³   ÀÄÄÄTesting
+    ³   ³           ÃÄÄÄLog
+    ³   ³           ³   ÃÄÄÄContext
+    ³   ³           ³   ³   ÀÄÄÄEvents
+    ³   ³           ³   ÀÄÄÄEvents
+    ³   ³           ÃÄÄÄMacroable
+    ³   ³           ³   ÀÄÄÄTraits
+    ³   ³           ÃÄÄÄMail
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄMailables
+    ³   ³           ³   ÃÄÄÄresources
+    ³   ³           ³   ³   ÀÄÄÄviews
+    ³   ³           ³   ³       ÃÄÄÄhtml
+    ³   ³           ³   ³       ³   ÀÄÄÄthemes
+    ³   ³           ³   ³       ÀÄÄÄtext
+    ³   ³           ³   ÀÄÄÄTransport
+    ³   ³           ÃÄÄÄNotifications
+    ³   ³           ³   ÃÄÄÄChannels
+    ³   ³           ³   ÃÄÄÄConsole
+    ³   ³           ³   ³   ÀÄÄÄstubs
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄMessages
+    ³   ³           ³   ÀÄÄÄresources
+    ³   ³           ³       ÀÄÄÄviews
+    ³   ³           ÃÄÄÄPagination
+    ³   ³           ³   ÀÄÄÄresources
+    ³   ³           ³       ÀÄÄÄviews
+    ³   ³           ÃÄÄÄPipeline
+    ³   ³           ÃÄÄÄProcess
+    ³   ³           ³   ÀÄÄÄExceptions
+    ³   ³           ÃÄÄÄQueue
+    ³   ³           ³   ÃÄÄÄAttributes
+    ³   ³           ³   ÃÄÄÄCapsule
+    ³   ³           ³   ÃÄÄÄConnectors
+    ³   ³           ³   ÃÄÄÄConsole
+    ³   ³           ³   ³   ÀÄÄÄstubs
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄFailed
+    ³   ³           ³   ÃÄÄÄJobs
+    ³   ³           ³   ÀÄÄÄMiddleware
+    ³   ³           ÃÄÄÄRedis
+    ³   ³           ³   ÃÄÄÄConnections
+    ³   ³           ³   ÃÄÄÄConnectors
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÀÄÄÄLimiters
+    ³   ³           ÃÄÄÄRouting
+    ³   ³           ³   ÃÄÄÄConsole
+    ³   ³           ³   ³   ÀÄÄÄstubs
+    ³   ³           ³   ÃÄÄÄContracts
+    ³   ³           ³   ÃÄÄÄControllers
+    ³   ³           ³   ÃÄÄÄEvents
+    ³   ³           ³   ÃÄÄÄExceptions
+    ³   ³           ³   ÃÄÄÄMatching
+    ³   ³           ³   ÀÄÄÄMiddleware
+    ³   ³           ÃÄÄÄSession
+    ³   ³           ³   ÃÄÄÄConsole
+    ³   ³           ³   ³   ÀÄÄÄstubs
+    ³   ³           ³   ÀÄÄÄMiddleware
+    ³   ³           ÃÄÄÄSupport
+    ³   ³           ³   ÃÄÄÄDefer
+    ³   ³           ³   ÃÄÄÄExceptions
+    ³   ³           ³   ÃÄÄÄFacades
+    ³   ³           ³   ÃÄÄÄProcess
+    ³   ³           ³   ÃÄÄÄTesting
+    ³   ³           ³   ³   ÀÄÄÄFakes
+    ³   ³           ³   ÀÄÄÄTraits
+    ³   ³           ÃÄÄÄTesting
+    ³   ³           ³   ÃÄÄÄConcerns
+    ³   ³           ³   ÃÄÄÄConstraints
+    ³   ³           ³   ÃÄÄÄExceptions
+    ³   ³           ³   ÀÄÄÄFluent
+    ³   ³           ³       ÀÄÄÄConcerns
+    ³   ³           ÃÄÄÄTranslation
+    ³   ³           ³   ÀÄÄÄlang
+    ³   ³           ³       ÀÄÄÄen
+    ³   ³           ÃÄÄÄValidation
+    ³   ³           ³   ÃÄÄÄConcerns
+    ³   ³           ³   ÀÄÄÄRules
+    ³   ³           ÀÄÄÄView
+    ³   ³               ÃÄÄÄCompilers
+    ³   ³               ³   ÀÄÄÄConcerns
+    ³   ³               ÃÄÄÄConcerns
+    ³   ³               ÃÄÄÄEngines
+    ³   ³               ÀÄÄÄMiddleware
+    ³   ÃÄÄÄpint
+    ³   ³   ÀÄÄÄbuilds
+    ³   ÃÄÄÄprompts
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄConcerns
+    ³   ³       ÃÄÄÄExceptions
+    ³   ³       ÃÄÄÄOutput
+    ³   ³       ÃÄÄÄSupport
+    ³   ³       ÀÄÄÄThemes
+    ³   ³           ÃÄÄÄContracts
+    ³   ³           ÀÄÄÄDefault
+    ³   ³               ÀÄÄÄConcerns
+    ³   ÃÄÄÄsail
+    ³   ³   ÃÄÄÄbin
+    ³   ³   ÃÄÄÄdatabase
+    ³   ³   ³   ÃÄÄÄmariadb
+    ³   ³   ³   ÃÄÄÄmysql
+    ³   ³   ³   ÀÄÄÄpgsql
+    ³   ³   ÃÄÄÄruntimes
+    ³   ³   ³   ÃÄÄÄ8.0
+    ³   ³   ³   ÃÄÄÄ8.1
+    ³   ³   ³   ÃÄÄÄ8.2
+    ³   ³   ³   ÀÄÄÄ8.3
+    ³   ³   ÃÄÄÄsrc
+    ³   ³   ³   ÀÄÄÄConsole
+    ³   ³   ³       ÀÄÄÄConcerns
+    ³   ³   ÀÄÄÄstubs
+    ³   ÃÄÄÄserializable-closure
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄContracts
+    ³   ³       ÃÄÄÄExceptions
+    ³   ³       ÃÄÄÄSerializers
+    ³   ³       ÃÄÄÄSigners
+    ³   ³       ÀÄÄÄSupport
+    ³   ÃÄÄÄtinker
+    ³   ³   ÃÄÄÄconfig
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄConsole
+    ³   ÀÄÄÄui
+    ³       ÃÄÄÄauth-backend
+    ³       ÃÄÄÄsrc
+    ³       ³   ÃÄÄÄAuth
+    ³       ³   ³   ÃÄÄÄbootstrap-stubs
+    ³       ³   ³   ³   ÃÄÄÄauth
+    ³       ³   ³   ³   ³   ÀÄÄÄpasswords
+    ³       ³   ³   ³   ÀÄÄÄlayouts
+    ³       ³   ³   ÀÄÄÄstubs
+    ³       ³   ³       ÀÄÄÄcontrollers
+    ³       ³   ÀÄÄÄPresets
+    ³       ³       ÃÄÄÄbootstrap-stubs
+    ³       ³       ÃÄÄÄreact-stubs
+    ³       ³       ÀÄÄÄvue-stubs
+    ³       ÃÄÄÄstubs
+    ³       ³   ÃÄÄÄAuth
+    ³       ³   ÀÄÄÄmigrations
+    ³       ÀÄÄÄtests
+    ³           ÀÄÄÄAuthBackend
+    ÃÄÄÄleague
+    ³   ÃÄÄÄcommonmark
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄDelimiter
+    ³   ³       ³   ÀÄÄÄProcessor
+    ³   ³       ÃÄÄÄEnvironment
+    ³   ³       ÃÄÄÄEvent
+    ³   ³       ÃÄÄÄException
+    ³   ³       ÃÄÄÄExtension
+    ³   ³       ³   ÃÄÄÄAttributes
+    ³   ³       ³   ³   ÃÄÄÄEvent
+    ³   ³       ³   ³   ÃÄÄÄNode
+    ³   ³       ³   ³   ÃÄÄÄParser
+    ³   ³       ³   ³   ÀÄÄÄUtil
+    ³   ³       ³   ÃÄÄÄAutolink
+    ³   ³       ³   ÃÄÄÄCommonMark
+    ³   ³       ³   ³   ÃÄÄÄDelimiter
+    ³   ³       ³   ³   ³   ÀÄÄÄProcessor
+    ³   ³       ³   ³   ÃÄÄÄNode
+    ³   ³       ³   ³   ³   ÃÄÄÄBlock
+    ³   ³       ³   ³   ³   ÀÄÄÄInline
+    ³   ³       ³   ³   ÃÄÄÄParser
+    ³   ³       ³   ³   ³   ÃÄÄÄBlock
+    ³   ³       ³   ³   ³   ÀÄÄÄInline
+    ³   ³       ³   ³   ÀÄÄÄRenderer
+    ³   ³       ³   ³       ÃÄÄÄBlock
+    ³   ³       ³   ³       ÀÄÄÄInline
+    ³   ³       ³   ÃÄÄÄDefaultAttributes
+    ³   ³       ³   ÃÄÄÄDescriptionList
+    ³   ³       ³   ³   ÃÄÄÄEvent
+    ³   ³       ³   ³   ÃÄÄÄNode
+    ³   ³       ³   ³   ÃÄÄÄParser
+    ³   ³       ³   ³   ÀÄÄÄRenderer
+    ³   ³       ³   ÃÄÄÄDisallowedRawHtml
+    ³   ³       ³   ÃÄÄÄEmbed
+    ³   ³       ³   ³   ÀÄÄÄBridge
+    ³   ³       ³   ÃÄÄÄExternalLink
+    ³   ³       ³   ÃÄÄÄFootnote
+    ³   ³       ³   ³   ÃÄÄÄEvent
+    ³   ³       ³   ³   ÃÄÄÄNode
+    ³   ³       ³   ³   ÃÄÄÄParser
+    ³   ³       ³   ³   ÀÄÄÄRenderer
+    ³   ³       ³   ÃÄÄÄFrontMatter
+    ³   ³       ³   ³   ÃÄÄÄData
+    ³   ³       ³   ³   ÃÄÄÄException
+    ³   ³       ³   ³   ÃÄÄÄInput
+    ³   ³       ³   ³   ÃÄÄÄListener
+    ³   ³       ³   ³   ÀÄÄÄOutput
+    ³   ³       ³   ÃÄÄÄHeadingPermalink
+    ³   ³       ³   ÃÄÄÄInlinesOnly
+    ³   ³       ³   ÃÄÄÄMention
+    ³   ³       ³   ³   ÀÄÄÄGenerator
+    ³   ³       ³   ÃÄÄÄSmartPunct
+    ³   ³       ³   ÃÄÄÄStrikethrough
+    ³   ³       ³   ÃÄÄÄTable
+    ³   ³       ³   ÃÄÄÄTableOfContents
+    ³   ³       ³   ³   ÃÄÄÄNode
+    ³   ³       ³   ³   ÀÄÄÄNormalizer
+    ³   ³       ³   ÀÄÄÄTaskList
+    ³   ³       ÃÄÄÄInput
+    ³   ³       ÃÄÄÄNode
+    ³   ³       ³   ÃÄÄÄBlock
+    ³   ³       ³   ÃÄÄÄInline
+    ³   ³       ³   ÀÄÄÄQuery
+    ³   ³       ÃÄÄÄNormalizer
+    ³   ³       ÃÄÄÄOutput
+    ³   ³       ÃÄÄÄParser
+    ³   ³       ³   ÃÄÄÄBlock
+    ³   ³       ³   ÀÄÄÄInline
+    ³   ³       ÃÄÄÄReference
+    ³   ³       ÃÄÄÄRenderer
+    ³   ³       ³   ÃÄÄÄBlock
+    ³   ³       ³   ÀÄÄÄInline
+    ³   ³       ÃÄÄÄUtil
+    ³   ³       ÀÄÄÄXml
+    ³   ÃÄÄÄconfig
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄException
+    ³   ÃÄÄÄflysystem
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄUnixVisibility
+    ³   ³       ÀÄÄÄUrlGeneration
+    ³   ÃÄÄÄflysystem-local
+    ³   ÀÄÄÄmime-type-detection
+    ³       ÀÄÄÄsrc
+    ÃÄÄÄmockery
+    ³   ÀÄÄÄmockery
+    ³       ÃÄÄÄdocs
+    ³       ³   ÃÄÄÄcookbook
+    ³       ³   ÃÄÄÄgetting_started
+    ³       ³   ÃÄÄÄmockery
+    ³       ³   ÃÄÄÄreference
+    ³       ³   ÀÄÄÄ_static
+    ³       ÀÄÄÄlibrary
+    ³           ÀÄÄÄMockery
+    ³               ÃÄÄÄAdapter
+    ³               ³   ÀÄÄÄPhpunit
+    ³               ÃÄÄÄCountValidator
+    ³               ÃÄÄÄException
+    ³               ÃÄÄÄGenerator
+    ³               ³   ÀÄÄÄStringManipulation
+    ³               ³       ÀÄÄÄPass
+    ³               ÃÄÄÄLoader
+    ³               ÀÄÄÄMatcher
+    ÃÄÄÄmonolog
+    ³   ÀÄÄÄmonolog
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄMonolog
+    ³               ÃÄÄÄAttribute
+    ³               ÃÄÄÄFormatter
+    ³               ÃÄÄÄHandler
+    ³               ³   ÃÄÄÄCurl
+    ³               ³   ÃÄÄÄFingersCrossed
+    ³               ³   ÃÄÄÄSlack
+    ³               ³   ÀÄÄÄSyslogUdp
+    ³               ÃÄÄÄProcessor
+    ³               ÀÄÄÄTest
+    ÃÄÄÄmyclabs
+    ³   ÀÄÄÄdeep-copy
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄDeepCopy
+    ³               ÃÄÄÄException
+    ³               ÃÄÄÄFilter
+    ³               ³   ÀÄÄÄDoctrine
+    ³               ÃÄÄÄMatcher
+    ³               ³   ÀÄÄÄDoctrine
+    ³               ÃÄÄÄReflection
+    ³               ÃÄÄÄTypeFilter
+    ³               ³   ÃÄÄÄDate
+    ³               ³   ÀÄÄÄSpl
+    ³               ÀÄÄÄTypeMatcher
+    ÃÄÄÄnesbot
+    ³   ÀÄÄÄcarbon
+    ³       ÃÄÄÄbin
+    ³       ÃÄÄÄlazy
+    ³       ³   ÀÄÄÄCarbon
+    ³       ³       ÀÄÄÄMessageFormatter
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄCarbon
+    ³               ÃÄÄÄCli
+    ³               ÃÄÄÄExceptions
+    ³               ÃÄÄÄLang
+    ³               ÃÄÄÄLaravel
+    ³               ÃÄÄÄList
+    ³               ÃÄÄÄMessageFormatter
+    ³               ÃÄÄÄPHPStan
+    ³               ÀÄÄÄTraits
+    ÃÄÄÄnette
+    ³   ÃÄÄÄschema
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄSchema
+    ³   ³           ÀÄÄÄElements
+    ³   ÀÄÄÄutils
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄIterators
+    ³           ÀÄÄÄUtils
+    ÃÄÄÄnikic
+    ³   ÀÄÄÄphp-parser
+    ³       ÃÄÄÄbin
+    ³       ÀÄÄÄlib
+    ³           ÀÄÄÄPhpParser
+    ³               ÃÄÄÄBuilder
+    ³               ÃÄÄÄComment
+    ³               ÃÄÄÄErrorHandler
+    ³               ÃÄÄÄInternal
+    ³               ÃÄÄÄLexer
+    ³               ³   ÀÄÄÄTokenEmulator
+    ³               ÃÄÄÄNode
+    ³               ³   ÃÄÄÄExpr
+    ³               ³   ³   ÃÄÄÄAssignOp
+    ³               ³   ³   ÃÄÄÄBinaryOp
+    ³               ³   ³   ÀÄÄÄCast
+    ³               ³   ÃÄÄÄName
+    ³               ³   ÃÄÄÄScalar
+    ³               ³   ³   ÀÄÄÄMagicConst
+    ³               ³   ÀÄÄÄStmt
+    ³               ³       ÀÄÄÄTraitUseAdaptation
+    ³               ÃÄÄÄNodeVisitor
+    ³               ÃÄÄÄParser
+    ³               ÀÄÄÄPrettyPrinter
+    ÃÄÄÄnunomaduro
+    ³   ÃÄÄÄcollision
+    ³   ³   ÃÄÄÄ.temp
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄAdapters
+    ³   ³       ³   ÃÄÄÄLaravel
+    ³   ³       ³   ³   ÃÄÄÄCommands
+    ³   ³       ³   ³   ÀÄÄÄExceptions
+    ³   ³       ³   ÀÄÄÄPhpunit
+    ³   ³       ³       ÃÄÄÄPrinters
+    ³   ³       ³       ÃÄÄÄSubscribers
+    ³   ³       ³       ÀÄÄÄSupport
+    ³   ³       ÃÄÄÄContracts
+    ³   ³       ³   ÀÄÄÄAdapters
+    ³   ³       ³       ÀÄÄÄPhpunit
+    ³   ³       ÃÄÄÄExceptions
+    ³   ³       ÀÄÄÄSolutionsRepositories
+    ³   ÀÄÄÄtermwind
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄActions
+    ³           ÃÄÄÄComponents
+    ³           ÃÄÄÄEnums
+    ³           ÃÄÄÄExceptions
+    ³           ÃÄÄÄHelpers
+    ³           ÃÄÄÄHtml
+    ³           ÃÄÄÄLaravel
+    ³           ÃÄÄÄRepositories
+    ³           ÀÄÄÄValueObjects
+    ÃÄÄÄpestphp
+    ³   ÃÄÄÄpest
+    ³   ³   ÃÄÄÄ.temp
+    ³   ³   ÃÄÄÄbin
+    ³   ³   ÃÄÄÄoverrides
+    ³   ³   ³   ÃÄÄÄEvent
+    ³   ³   ³   ³   ÀÄÄÄValue
+    ³   ³   ³   ÃÄÄÄLogging
+    ³   ³   ³   ³   ÀÄÄÄJUnit
+    ³   ³   ³   ÃÄÄÄRunner
+    ³   ³   ³   ³   ÃÄÄÄFilter
+    ³   ³   ³   ³   ÀÄÄÄResultCache
+    ³   ³   ³   ÀÄÄÄTextUI
+    ³   ³   ³       ÃÄÄÄCommand
+    ³   ³   ³       ³   ÀÄÄÄCommands
+    ³   ³   ³       ÀÄÄÄOutput
+    ³   ³   ³           ÀÄÄÄDefault
+    ³   ³   ³               ÀÄÄÄProgressPrinter
+    ³   ³   ³                   ÀÄÄÄSubscriber
+    ³   ³   ÃÄÄÄresources
+    ³   ³   ³   ÀÄÄÄviews
+    ³   ³   ³       ÀÄÄÄcomponents
+    ³   ³   ÃÄÄÄsrc
+    ³   ³   ³   ÃÄÄÄArchPresets
+    ³   ³   ³   ÃÄÄÄBootstrappers
+    ³   ³   ³   ÃÄÄÄCollision
+    ³   ³   ³   ÃÄÄÄConcerns
+    ³   ³   ³   ³   ÀÄÄÄLogging
+    ³   ³   ³   ÃÄÄÄConfiguration
+    ³   ³   ³   ÃÄÄÄConsole
+    ³   ³   ³   ÃÄÄÄContracts
+    ³   ³   ³   ³   ÀÄÄÄPlugins
+    ³   ³   ³   ÃÄÄÄEvaluators
+    ³   ³   ³   ÃÄÄÄExceptions
+    ³   ³   ³   ÃÄÄÄExpectations
+    ³   ³   ³   ÃÄÄÄFactories
+    ³   ³   ³   ³   ÃÄÄÄConcerns
+    ³   ³   ³   ³   ÀÄÄÄCovers
+    ³   ³   ³   ÃÄÄÄLogging
+    ³   ³   ³   ³   ÀÄÄÄTeamCity
+    ³   ³   ³   ³       ÀÄÄÄSubscriber
+    ³   ³   ³   ÃÄÄÄMatchers
+    ³   ³   ³   ÃÄÄÄMixins
+    ³   ³   ³   ÃÄÄÄPendingCalls
+    ³   ³   ³   ³   ÀÄÄÄConcerns
+    ³   ³   ³   ÃÄÄÄPlugins
+    ³   ³   ³   ³   ÃÄÄÄActions
+    ³   ³   ³   ³   ÃÄÄÄConcerns
+    ³   ³   ³   ³   ÀÄÄÄParallel
+    ³   ³   ³   ³       ÃÄÄÄContracts
+    ³   ³   ³   ³       ÃÄÄÄHandlers
+    ³   ³   ³   ³       ÃÄÄÄParatest
+    ³   ³   ³   ³       ÀÄÄÄSupport
+    ³   ³   ³   ÃÄÄÄRepositories
+    ³   ³   ³   ÃÄÄÄSubscribers
+    ³   ³   ³   ÃÄÄÄSupport
+    ³   ³   ³   ÃÄÄÄTestCaseFilters
+    ³   ³   ³   ÃÄÄÄTestCaseMethodFilters
+    ³   ³   ³   ÀÄÄÄTestCases
+    ³   ³   ÀÄÄÄstubs
+    ³   ³       ÃÄÄÄinit
+    ³   ³       ³   ÃÄÄÄFeature
+    ³   ³       ³   ÀÄÄÄUnit
+    ³   ³       ÀÄÄÄinit-laravel
+    ³   ³           ÃÄÄÄFeature
+    ³   ³           ÀÄÄÄUnit
+    ³   ÃÄÄÄpest-plugin
+    ³   ³   ÃÄÄÄ.temp
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄCommands
+    ³   ÃÄÄÄpest-plugin-arch
+    ³   ³   ÃÄÄÄ.phpunit.cache
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄCollections
+    ³   ³       ÃÄÄÄConcerns
+    ³   ³       ÃÄÄÄContracts
+    ³   ³       ÃÄÄÄExceptions
+    ³   ³       ÃÄÄÄExpectations
+    ³   ³       ÃÄÄÄFactories
+    ³   ³       ÃÄÄÄObjects
+    ³   ³       ÃÄÄÄOptions
+    ³   ³       ÃÄÄÄRepositories
+    ³   ³       ÃÄÄÄSupport
+    ³   ³       ÀÄÄÄValueObjects
+    ³   ÃÄÄÄpest-plugin-laravel
+    ³   ³   ÃÄÄÄresources
+    ³   ³   ³   ÃÄÄÄdatabase
+    ³   ³   ³   ³   ÀÄÄÄmigrations
+    ³   ³   ³   ÀÄÄÄviews
+    ³   ³   ÃÄÄÄsrc
+    ³   ³   ³   ÀÄÄÄCommands
+    ³   ³   ÀÄÄÄstubs
+    ³   ³       ÀÄÄÄLaravel
+    ³   ÀÄÄÄpest-plugin-mutate
+    ³       ÃÄÄÄ.temp
+    ³       ³   ÃÄÄÄcache
+    ³       ³   ÃÄÄÄmutations
+    ³       ³   ÀÄÄÄpest-mutate-cache
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄBoostrappers
+    ³           ÃÄÄÄCache
+    ³           ÃÄÄÄContracts
+    ³           ÃÄÄÄEvent
+    ³           ³   ÀÄÄÄEvents
+    ³           ³       ÃÄÄÄTest
+    ³           ³       ³   ÃÄÄÄHookMethod
+    ³           ³       ³   ÀÄÄÄOutcome
+    ³           ³       ÀÄÄÄTestSuite
+    ³           ÃÄÄÄExceptions
+    ³           ÃÄÄÄFactories
+    ³           ÃÄÄÄMutators
+    ³           ³   ÃÄÄÄAbstract
+    ³           ³   ÃÄÄÄArithmetic
+    ³           ³   ÃÄÄÄArray
+    ³           ³   ÃÄÄÄAssignment
+    ³           ³   ÃÄÄÄCasting
+    ³           ³   ÃÄÄÄConcerns
+    ³           ³   ÃÄÄÄControlStructures
+    ³           ³   ÃÄÄÄEquality
+    ³           ³   ÃÄÄÄLaravel
+    ³           ³   ³   ÃÄÄÄRemove
+    ³           ³   ³   ÀÄÄÄUnwrap
+    ³           ³   ÃÄÄÄLogical
+    ³           ³   ÃÄÄÄMath
+    ³           ³   ÃÄÄÄNumber
+    ³           ³   ÃÄÄÄRemoval
+    ³           ³   ÃÄÄÄReturn
+    ³           ³   ÃÄÄÄSets
+    ³           ³   ÃÄÄÄString
+    ³           ³   ÀÄÄÄVisibility
+    ³           ÃÄÄÄOptions
+    ³           ÃÄÄÄPlugins
+    ³           ÃÄÄÄRepositories
+    ³           ÃÄÄÄSubscribers
+    ³           ÃÄÄÄSupport
+    ³           ³   ÃÄÄÄConfiguration
+    ³           ³   ÀÄÄÄPrinters
+    ³           ÀÄÄÄTester
+    ÃÄÄÄphar-io
+    ³   ÃÄÄÄmanifest
+    ³   ³   ÃÄÄÄ.github
+    ³   ³   ³   ÀÄÄÄworkflows
+    ³   ³   ÃÄÄÄsrc
+    ³   ³   ³   ÃÄÄÄexceptions
+    ³   ³   ³   ÃÄÄÄvalues
+    ³   ³   ³   ÀÄÄÄxml
+    ³   ³   ÀÄÄÄtools
+    ³   ³       ÀÄÄÄphp-cs-fixer.d
+    ³   ÀÄÄÄversion
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄconstraints
+    ³           ÀÄÄÄexceptions
+    ÃÄÄÄphpdocumentor
+    ³   ÃÄÄÄreflection-common
+    ³   ³   ÃÄÄÄ.github
+    ³   ³   ³   ÀÄÄÄworkflows
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄreflection-docblock
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄDocBlock
+    ³   ³       ³   ÀÄÄÄTags
+    ³   ³       ³       ÃÄÄÄFactory
+    ³   ³       ³       ÃÄÄÄFormatter
+    ³   ³       ³       ÀÄÄÄReference
+    ³   ³       ÀÄÄÄException
+    ³   ÀÄÄÄtype-resolver
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄPseudoTypes
+    ³           ÀÄÄÄTypes
+    ÃÄÄÄphpoption
+    ³   ÀÄÄÄphpoption
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄPhpOption
+    ÃÄÄÄphpstan
+    ³   ÀÄÄÄphpdoc-parser
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄAst
+    ³           ³   ÃÄÄÄConstExpr
+    ³           ³   ÃÄÄÄNodeVisitor
+    ³           ³   ÃÄÄÄPhpDoc
+    ³           ³   ³   ÀÄÄÄDoctrine
+    ³           ³   ÀÄÄÄType
+    ³           ÃÄÄÄLexer
+    ³           ÃÄÄÄParser
+    ³           ÀÄÄÄPrinter
+    ÃÄÄÄphpunit
+    ³   ÃÄÄÄphp-code-coverage
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄData
+    ³   ³       ÃÄÄÄDriver
+    ³   ³       ÃÄÄÄException
+    ³   ³       ÃÄÄÄNode
+    ³   ³       ÃÄÄÄReport
+    ³   ³       ³   ÃÄÄÄHtml
+    ³   ³       ³   ³   ÀÄÄÄRenderer
+    ³   ³       ³   ³       ÀÄÄÄTemplate
+    ³   ³       ³   ³           ÃÄÄÄcss
+    ³   ³       ³   ³           ÃÄÄÄicons
+    ³   ³       ³   ³           ÀÄÄÄjs
+    ³   ³       ³   ÀÄÄÄXml
+    ³   ³       ÃÄÄÄStaticAnalysis
+    ³   ³       ÃÄÄÄTestSize
+    ³   ³       ÃÄÄÄTestStatus
+    ³   ³       ÀÄÄÄUtil
+    ³   ÃÄÄÄphp-file-iterator
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄphp-invoker
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄexceptions
+    ³   ÃÄÄÄphp-text-template
+    ³   ³   ÃÄÄÄ.psalm
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄexceptions
+    ³   ÃÄÄÄphp-timer
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄexceptions
+    ³   ÀÄÄÄphpunit
+    ³       ÃÄÄÄschema
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄEvent
+    ³           ³   ÃÄÄÄDispatcher
+    ³           ³   ÃÄÄÄEmitter
+    ³           ³   ÃÄÄÄEvents
+    ³           ³   ³   ÃÄÄÄApplication
+    ³           ³   ³   ÃÄÄÄTest
+    ³           ³   ³   ³   ÃÄÄÄHookMethod
+    ³           ³   ³   ³   ÃÄÄÄIssue
+    ³           ³   ³   ³   ÃÄÄÄLifecycle
+    ³           ³   ³   ³   ÃÄÄÄOutcome
+    ³           ³   ³   ³   ÀÄÄÄTestDouble
+    ³           ³   ³   ÃÄÄÄTestRunner
+    ³           ³   ³   ÀÄÄÄTestSuite
+    ³           ³   ÃÄÄÄException
+    ³           ³   ÀÄÄÄValue
+    ³           ³       ÃÄÄÄRuntime
+    ³           ³       ÃÄÄÄTelemetry
+    ³           ³       ÃÄÄÄTest
+    ³           ³       ³   ÃÄÄÄIssue
+    ³           ³       ³   ÀÄÄÄTestData
+    ³           ³       ÀÄÄÄTestSuite
+    ³           ÃÄÄÄFramework
+    ³           ³   ÃÄÄÄAssert
+    ³           ³   ÃÄÄÄAttributes
+    ³           ³   ÃÄÄÄConstraint
+    ³           ³   ³   ÃÄÄÄBoolean
+    ³           ³   ³   ÃÄÄÄCardinality
+    ³           ³   ³   ÃÄÄÄEquality
+    ³           ³   ³   ÃÄÄÄException
+    ³           ³   ³   ÃÄÄÄFilesystem
+    ³           ³   ³   ÃÄÄÄMath
+    ³           ³   ³   ÃÄÄÄObject
+    ³           ³   ³   ÃÄÄÄOperator
+    ³           ³   ³   ÃÄÄÄString
+    ³           ³   ³   ÃÄÄÄTraversable
+    ³           ³   ³   ÀÄÄÄType
+    ³           ³   ÃÄÄÄException
+    ³           ³   ³   ÃÄÄÄIncomplete
+    ³           ³   ³   ÃÄÄÄObjectEquals
+    ³           ³   ³   ÀÄÄÄSkipped
+    ³           ³   ÃÄÄÄMockObject
+    ³           ³   ³   ÃÄÄÄException
+    ³           ³   ³   ÃÄÄÄGenerator
+    ³           ³   ³   ³   ÃÄÄÄException
+    ³           ³   ³   ³   ÀÄÄÄtemplates
+    ³           ³   ³   ÀÄÄÄRuntime
+    ³           ³   ³       ÃÄÄÄApi
+    ³           ³   ³       ÃÄÄÄBuilder
+    ³           ³   ³       ÃÄÄÄInterface
+    ³           ³   ³       ÃÄÄÄRule
+    ³           ³   ³       ÀÄÄÄStub
+    ³           ³   ÃÄÄÄTestRunner
+    ³           ³   ³   ÀÄÄÄtemplates
+    ³           ³   ÃÄÄÄTestSize
+    ³           ³   ÀÄÄÄTestStatus
+    ³           ÃÄÄÄLogging
+    ³           ³   ÃÄÄÄJUnit
+    ³           ³   ³   ÀÄÄÄSubscriber
+    ³           ³   ÃÄÄÄTeamCity
+    ³           ³   ³   ÀÄÄÄSubscriber
+    ³           ³   ÀÄÄÄTestDox
+    ³           ³       ÀÄÄÄTestResult
+    ³           ³           ÀÄÄÄSubscriber
+    ³           ÃÄÄÄMetadata
+    ³           ³   ÃÄÄÄApi
+    ³           ³   ÃÄÄÄException
+    ³           ³   ÃÄÄÄParser
+    ³           ³   ³   ÀÄÄÄAnnotation
+    ³           ³   ÀÄÄÄVersion
+    ³           ÃÄÄÄRunner
+    ³           ³   ÃÄÄÄBaseline
+    ³           ³   ³   ÃÄÄÄException
+    ³           ³   ³   ÀÄÄÄSubscriber
+    ³           ³   ÃÄÄÄDeprecationCollector
+    ³           ³   ³   ÀÄÄÄSubscriber
+    ³           ³   ÃÄÄÄException
+    ³           ³   ÃÄÄÄExtension
+    ³           ³   ÃÄÄÄFilter
+    ³           ³   ÃÄÄÄGarbageCollection
+    ³           ³   ³   ÀÄÄÄSubscriber
+    ³           ³   ÃÄÄÄHookMethod
+    ³           ³   ÃÄÄÄPHPT
+    ³           ³   ³   ÀÄÄÄtemplates
+    ³           ³   ÃÄÄÄResultCache
+    ³           ³   ³   ÀÄÄÄSubscriber
+    ³           ³   ÀÄÄÄTestResult
+    ³           ³       ÀÄÄÄSubscriber
+    ³           ÃÄÄÄTextUI
+    ³           ³   ÃÄÄÄCommand
+    ³           ³   ³   ÀÄÄÄCommands
+    ³           ³   ÃÄÄÄConfiguration
+    ³           ³   ³   ÃÄÄÄCli
+    ³           ³   ³   ÃÄÄÄException
+    ³           ³   ³   ÃÄÄÄValue
+    ³           ³   ³   ÀÄÄÄXml
+    ³           ³   ³       ÃÄÄÄCodeCoverage
+    ³           ³   ³       ³   ÀÄÄÄReport
+    ³           ³   ³       ÃÄÄÄLogging
+    ³           ³   ³       ³   ÀÄÄÄTestDox
+    ³           ³   ³       ÃÄÄÄMigration
+    ³           ³   ³       ³   ÀÄÄÄMigrations
+    ³           ³   ³       ÃÄÄÄSchemaDetector
+    ³           ³   ³       ÀÄÄÄValidator
+    ³           ³   ÃÄÄÄException
+    ³           ³   ÀÄÄÄOutput
+    ³           ³       ÃÄÄÄDefault
+    ³           ³       ³   ÀÄÄÄProgressPrinter
+    ³           ³       ³       ÀÄÄÄSubscriber
+    ³           ³       ÃÄÄÄPrinter
+    ³           ³       ÀÄÄÄTestDox
+    ³           ÀÄÄÄUtil
+    ³               ÃÄÄÄException
+    ³               ÃÄÄÄPHP
+    ³               ÀÄÄÄXml
+    ÃÄÄÄpsr
+    ³   ÃÄÄÄclock
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄcontainer
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄevent-dispatcher
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄhttp-client
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄhttp-factory
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄhttp-message
+    ³   ³   ÃÄÄÄdocs
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄlog
+    ³   ³   ÀÄÄÄsrc
+    ³   ÀÄÄÄsimple-cache
+    ³       ÀÄÄÄsrc
+    ÃÄÄÄpsy
+    ³   ÀÄÄÄpsysh
+    ³       ÃÄÄÄbin
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄCodeCleaner
+    ³           ÃÄÄÄCommand
+    ³           ³   ÃÄÄÄListCommand
+    ³           ³   ÀÄÄÄTimeitCommand
+    ³           ÃÄÄÄException
+    ³           ÃÄÄÄExecutionLoop
+    ³           ÃÄÄÄFormatter
+    ³           ÃÄÄÄInput
+    ³           ÃÄÄÄOutput
+    ³           ÃÄÄÄReadline
+    ³           ³   ÀÄÄÄHoa
+    ³           ³       ÀÄÄÄTerminfo
+    ³           ³           ÃÄÄÄ77
+    ³           ³           ÀÄÄÄ78
+    ³           ÃÄÄÄReflection
+    ³           ÃÄÄÄSudo
+    ³           ÃÄÄÄTabCompletion
+    ³           ³   ÀÄÄÄMatcher
+    ³           ÃÄÄÄUtil
+    ³           ÃÄÄÄVarDumper
+    ³           ÀÄÄÄVersionUpdater
+    ³               ÀÄÄÄDownloader
+    ÃÄÄÄralouphie
+    ³   ÀÄÄÄgetallheaders
+    ³       ÀÄÄÄsrc
+    ÃÄÄÄramsey
+    ³   ÃÄÄÄcollection
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄException
+    ³   ³       ÃÄÄÄMap
+    ³   ³       ÀÄÄÄTool
+    ³   ÀÄÄÄuuid
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄBuilder
+    ³           ÃÄÄÄCodec
+    ³           ÃÄÄÄConverter
+    ³           ³   ÃÄÄÄNumber
+    ³           ³   ÀÄÄÄTime
+    ³           ÃÄÄÄException
+    ³           ÃÄÄÄFields
+    ³           ÃÄÄÄGenerator
+    ³           ÃÄÄÄGuid
+    ³           ÃÄÄÄLazy
+    ³           ÃÄÄÄMath
+    ³           ÃÄÄÄNonstandard
+    ³           ÃÄÄÄProvider
+    ³           ³   ÃÄÄÄDce
+    ³           ³   ÃÄÄÄNode
+    ³           ³   ÀÄÄÄTime
+    ³           ÃÄÄÄRfc4122
+    ³           ÃÄÄÄType
+    ³           ÀÄÄÄValidator
+    ÃÄÄÄsebastian
+    ³   ÃÄÄÄcli-parser
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄexceptions
+    ³   ÃÄÄÄcode-unit
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄexceptions
+    ³   ÃÄÄÄcode-unit-reverse-lookup
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄcomparator
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄexceptions
+    ³   ÃÄÄÄcomplexity
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄComplexity
+    ³   ³       ÃÄÄÄException
+    ³   ³       ÀÄÄÄVisitor
+    ³   ÃÄÄÄdiff
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄException
+    ³   ³       ÀÄÄÄOutput
+    ³   ÃÄÄÄenvironment
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄexporter
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄglobal-state
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄexceptions
+    ³   ÃÄÄÄlines-of-code
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÀÄÄÄException
+    ³   ÃÄÄÄobject-enumerator
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄobject-reflector
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄrecursion-context
+    ³   ³   ÀÄÄÄsrc
+    ³   ÃÄÄÄtype
+    ³   ³   ÀÄÄÄsrc
+    ³   ³       ÃÄÄÄexception
+    ³   ³       ÀÄÄÄtype
+    ³   ÀÄÄÄversion
+    ³       ÀÄÄÄsrc
+    ÃÄÄÄsymfony
+    ³   ÃÄÄÄclock
+    ³   ³   ÃÄÄÄResources
+    ³   ³   ÀÄÄÄTest
+    ³   ÃÄÄÄconsole
+    ³   ³   ÃÄÄÄAttribute
+    ³   ³   ÃÄÄÄCI
+    ³   ³   ÃÄÄÄCommand
+    ³   ³   ÃÄÄÄCommandLoader
+    ³   ³   ÃÄÄÄCompletion
+    ³   ³   ³   ÀÄÄÄOutput
+    ³   ³   ÃÄÄÄDataCollector
+    ³   ³   ÃÄÄÄDebug
+    ³   ³   ÃÄÄÄDependencyInjection
+    ³   ³   ÃÄÄÄDescriptor
+    ³   ³   ÃÄÄÄEvent
+    ³   ³   ÃÄÄÄEventListener
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄFormatter
+    ³   ³   ÃÄÄÄHelper
+    ³   ³   ÃÄÄÄInput
+    ³   ³   ÃÄÄÄLogger
+    ³   ³   ÃÄÄÄMessenger
+    ³   ³   ÃÄÄÄOutput
+    ³   ³   ÃÄÄÄQuestion
+    ³   ³   ÃÄÄÄResources
+    ³   ³   ³   ÀÄÄÄbin
+    ³   ³   ÃÄÄÄSignalRegistry
+    ³   ³   ÃÄÄÄStyle
+    ³   ³   ÀÄÄÄTester
+    ³   ³       ÀÄÄÄConstraint
+    ³   ÃÄÄÄcss-selector
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄNode
+    ³   ³   ÃÄÄÄParser
+    ³   ³   ³   ÃÄÄÄHandler
+    ³   ³   ³   ÃÄÄÄShortcut
+    ³   ³   ³   ÀÄÄÄTokenizer
+    ³   ³   ÀÄÄÄXPath
+    ³   ³       ÀÄÄÄExtension
+    ³   ÃÄÄÄdeprecation-contracts
+    ³   ÃÄÄÄerror-handler
+    ³   ³   ÃÄÄÄError
+    ³   ³   ÃÄÄÄErrorEnhancer
+    ³   ³   ÃÄÄÄErrorRenderer
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄInternal
+    ³   ³   ÀÄÄÄResources
+    ³   ³       ÃÄÄÄassets
+    ³   ³       ³   ÃÄÄÄcss
+    ³   ³       ³   ÃÄÄÄimages
+    ³   ³       ³   ÀÄÄÄjs
+    ³   ³       ÃÄÄÄbin
+    ³   ³       ÀÄÄÄviews
+    ³   ÃÄÄÄevent-dispatcher
+    ³   ³   ÃÄÄÄAttribute
+    ³   ³   ÃÄÄÄDebug
+    ³   ³   ÀÄÄÄDependencyInjection
+    ³   ÃÄÄÄevent-dispatcher-contracts
+    ³   ÃÄÄÄfinder
+    ³   ³   ÃÄÄÄComparator
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÀÄÄÄIterator
+    ³   ÃÄÄÄhttp-foundation
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄFile
+    ³   ³   ³   ÀÄÄÄException
+    ³   ³   ÃÄÄÄRateLimiter
+    ³   ³   ÃÄÄÄRequestMatcher
+    ³   ³   ÃÄÄÄSession
+    ³   ³   ³   ÃÄÄÄAttribute
+    ³   ³   ³   ÃÄÄÄFlash
+    ³   ³   ³   ÀÄÄÄStorage
+    ³   ³   ³       ÃÄÄÄHandler
+    ³   ³   ³       ÀÄÄÄProxy
+    ³   ³   ÀÄÄÄTest
+    ³   ³       ÀÄÄÄConstraint
+    ³   ÃÄÄÄhttp-kernel
+    ³   ³   ÃÄÄÄAttribute
+    ³   ³   ÃÄÄÄBundle
+    ³   ³   ÃÄÄÄCacheClearer
+    ³   ³   ÃÄÄÄCacheWarmer
+    ³   ³   ÃÄÄÄConfig
+    ³   ³   ÃÄÄÄController
+    ³   ³   ³   ÀÄÄÄArgumentResolver
+    ³   ³   ÃÄÄÄControllerMetadata
+    ³   ³   ÃÄÄÄDataCollector
+    ³   ³   ÃÄÄÄDebug
+    ³   ³   ÃÄÄÄDependencyInjection
+    ³   ³   ÃÄÄÄEvent
+    ³   ³   ÃÄÄÄEventListener
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄFragment
+    ³   ³   ÃÄÄÄHttpCache
+    ³   ³   ÃÄÄÄLog
+    ³   ³   ÃÄÄÄProfiler
+    ³   ³   ÀÄÄÄResources
+    ³   ÃÄÄÄmailer
+    ³   ³   ÃÄÄÄCommand
+    ³   ³   ÃÄÄÄDataCollector
+    ³   ³   ÃÄÄÄEvent
+    ³   ³   ÃÄÄÄEventListener
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄHeader
+    ³   ³   ÃÄÄÄMessenger
+    ³   ³   ÃÄÄÄTest
+    ³   ³   ³   ÀÄÄÄConstraint
+    ³   ³   ÀÄÄÄTransport
+    ³   ³       ÀÄÄÄSmtp
+    ³   ³           ÃÄÄÄAuth
+    ³   ³           ÀÄÄÄStream
+    ³   ÃÄÄÄmime
+    ³   ³   ÃÄÄÄCrypto
+    ³   ³   ÃÄÄÄDependencyInjection
+    ³   ³   ÃÄÄÄEncoder
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄHeader
+    ³   ³   ÃÄÄÄHtmlToTextConverter
+    ³   ³   ÃÄÄÄPart
+    ³   ³   ³   ÀÄÄÄMultipart
+    ³   ³   ÃÄÄÄResources
+    ³   ³   ³   ÀÄÄÄbin
+    ³   ³   ÀÄÄÄTest
+    ³   ³       ÀÄÄÄConstraint
+    ³   ÃÄÄÄpolyfill-ctype
+    ³   ÃÄÄÄpolyfill-intl-grapheme
+    ³   ÃÄÄÄpolyfill-intl-idn
+    ³   ³   ÀÄÄÄResources
+    ³   ³       ÀÄÄÄunidata
+    ³   ÃÄÄÄpolyfill-intl-normalizer
+    ³   ³   ÀÄÄÄResources
+    ³   ³       ÃÄÄÄstubs
+    ³   ³       ÀÄÄÄunidata
+    ³   ÃÄÄÄpolyfill-mbstring
+    ³   ³   ÀÄÄÄResources
+    ³   ³       ÀÄÄÄunidata
+    ³   ÃÄÄÄpolyfill-php80
+    ³   ³   ÀÄÄÄResources
+    ³   ³       ÀÄÄÄstubs
+    ³   ÃÄÄÄpolyfill-php83
+    ³   ³   ÀÄÄÄResources
+    ³   ³       ÀÄÄÄstubs
+    ³   ÃÄÄÄpolyfill-uuid
+    ³   ÃÄÄÄprocess
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄMessenger
+    ³   ³   ÀÄÄÄPipes
+    ³   ÃÄÄÄrouting
+    ³   ³   ÃÄÄÄAnnotation
+    ³   ³   ÃÄÄÄAttribute
+    ³   ³   ÃÄÄÄDependencyInjection
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄGenerator
+    ³   ³   ³   ÀÄÄÄDumper
+    ³   ³   ÃÄÄÄLoader
+    ³   ³   ³   ÃÄÄÄConfigurator
+    ³   ³   ³   ³   ÀÄÄÄTraits
+    ³   ³   ³   ÀÄÄÄschema
+    ³   ³   ³       ÀÄÄÄrouting
+    ³   ³   ÃÄÄÄMatcher
+    ³   ³   ³   ÀÄÄÄDumper
+    ³   ³   ÀÄÄÄRequirement
+    ³   ÃÄÄÄservice-contracts
+    ³   ³   ÃÄÄÄAttribute
+    ³   ³   ÀÄÄÄTest
+    ³   ÃÄÄÄstring
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄInflector
+    ³   ³   ÃÄÄÄResources
+    ³   ³   ³   ÃÄÄÄbin
+    ³   ³   ³   ÀÄÄÄdata
+    ³   ³   ÀÄÄÄSlugger
+    ³   ÃÄÄÄtranslation
+    ³   ³   ÃÄÄÄCatalogue
+    ³   ³   ÃÄÄÄCommand
+    ³   ³   ÃÄÄÄDataCollector
+    ³   ³   ÃÄÄÄDependencyInjection
+    ³   ³   ÃÄÄÄDumper
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄExtractor
+    ³   ³   ³   ÀÄÄÄVisitor
+    ³   ³   ÃÄÄÄFormatter
+    ³   ³   ÃÄÄÄLoader
+    ³   ³   ÃÄÄÄProvider
+    ³   ³   ÃÄÄÄReader
+    ³   ³   ÃÄÄÄResources
+    ³   ³   ³   ÃÄÄÄbin
+    ³   ³   ³   ÃÄÄÄdata
+    ³   ³   ³   ÀÄÄÄschemas
+    ³   ³   ÃÄÄÄTest
+    ³   ³   ÃÄÄÄUtil
+    ³   ³   ÀÄÄÄWriter
+    ³   ÃÄÄÄtranslation-contracts
+    ³   ³   ÀÄÄÄTest
+    ³   ÃÄÄÄuid
+    ³   ³   ÃÄÄÄCommand
+    ³   ³   ÀÄÄÄFactory
+    ³   ÃÄÄÄvar-dumper
+    ³   ³   ÃÄÄÄCaster
+    ³   ³   ÃÄÄÄCloner
+    ³   ³   ³   ÀÄÄÄInternal
+    ³   ³   ÃÄÄÄCommand
+    ³   ³   ³   ÀÄÄÄDescriptor
+    ³   ³   ÃÄÄÄDumper
+    ³   ³   ³   ÀÄÄÄContextProvider
+    ³   ³   ÃÄÄÄException
+    ³   ³   ÃÄÄÄResources
+    ³   ³   ³   ÃÄÄÄbin
+    ³   ³   ³   ÃÄÄÄcss
+    ³   ³   ³   ÃÄÄÄfunctions
+    ³   ³   ³   ÀÄÄÄjs
+    ³   ³   ÃÄÄÄServer
+    ³   ³   ÀÄÄÄTest
+    ³   ÀÄÄÄyaml
+    ³       ÃÄÄÄCommand
+    ³       ÃÄÄÄException
+    ³       ÃÄÄÄResources
+    ³       ³   ÀÄÄÄbin
+    ³       ÀÄÄÄTag
+    ÃÄÄÄta-tikoma
+    ³   ÀÄÄÄphpunit-architecture-test
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄAsserts
+    ³           ³   ÃÄÄÄDependencies
+    ³           ³   ³   ÀÄÄÄElements
+    ³           ³   ÃÄÄÄInheritance
+    ³           ³   ÃÄÄÄIterator
+    ³           ³   ÃÄÄÄMethods
+    ³           ³   ³   ÀÄÄÄElements
+    ³           ³   ÀÄÄÄProperties
+    ³           ³       ÀÄÄÄElements
+    ³           ÃÄÄÄBuilders
+    ³           ÃÄÄÄElements
+    ³           ³   ÀÄÄÄLayer
+    ³           ÃÄÄÄEnums
+    ³           ÃÄÄÄServices
+    ³           ÀÄÄÄStorage
+    ÃÄÄÄtheseer
+    ³   ÀÄÄÄtokenizer
+    ³       ÀÄÄÄsrc
+    ÃÄÄÄtijsverkoyen
+    ³   ÀÄÄÄcss-to-inline-styles
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄCss
+    ³               ÃÄÄÄProperty
+    ³               ÀÄÄÄRule
+    ÃÄÄÄvlucas
+    ³   ÀÄÄÄphpdotenv
+    ³       ÀÄÄÄsrc
+    ³           ÃÄÄÄException
+    ³           ÃÄÄÄLoader
+    ³           ÃÄÄÄParser
+    ³           ÃÄÄÄRepository
+    ³           ³   ÀÄÄÄAdapter
+    ³           ÃÄÄÄStore
+    ³           ³   ÀÄÄÄFile
+    ³           ÀÄÄÄUtil
+    ÃÄÄÄvoku
+    ³   ÀÄÄÄportable-ascii
+    ³       ÀÄÄÄsrc
+    ³           ÀÄÄÄvoku
+    ³               ÀÄÄÄhelper
+    ³                   ÀÄÄÄdata
+    ÀÄÄÄwebmozart
+        ÀÄÄÄassert
+            ÀÄÄÄsrc

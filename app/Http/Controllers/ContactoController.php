@@ -8,11 +8,20 @@ class ContactoController extends Controller
 {
     public function index()
     {
-        return view('tienda.contacto'); // Asegúrate de que esta vista existe en `resources/views/tienda/contacto.blade.php`
+        return view('tienda.contacto');
     }
 
-    public function store(Request $request)
+    public function submit(Request $request)
     {
-        // Código para almacenar el contacto
+        // Validar los datos del formulario
+        $validatedData = $request->validate([
+            'name' => 'required|string|max:255',
+            'phone' => 'required|string|max:20',
+            'email' => 'required|email',
+            'message' => 'required|string',
+        ]);
+
+        // Lógica para enviar el mensaje, por ejemplo, un correo electrónico
+        return redirect()->back()->with('success', 'Mensaje enviado correctamente.');
     }
 }

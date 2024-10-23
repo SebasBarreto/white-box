@@ -67,6 +67,15 @@ body {
   height: auto;
 }
 
+#navbar {
+  position: fixed; /* Fijo en la parte superior */
+  top: 0;
+  left: 0;
+  width: 100%; /* Asegúrate de que ocupe el ancho completo */
+  transition: top 0.3s; /* Añade una transición suave */
+  z-index: 1000; /* Para asegurarte de que esté por encima de otros elementos */
+}
+
 #navbarSupportedContent {
   width: 100%;
   background-color: #f9ece6;
@@ -121,15 +130,27 @@ a:focus {
 .navbar-brand {
   margin: 15px 0;
   padding: 0;
+  color: #000000; 
+  text-shadow: none; 
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; 
 }
 
 .navbar-brand span {
-  font-size: 28px;
-  font-weight: bold;
-  color: #000000;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
+  font-size: 28px; 
+  font-weight: bold; 
+  color: #000000; 
+  text-transform: uppercase; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.navbar-brand:hover {
+  color: #ffffff; 
+  text-shadow: 0 0 10px #4ed3d3; 
+}
+
+.navbar-brand:hover span {
+  color: #ffffff; 
 }
 
 .custom_nav-container .nav_search-btn {
@@ -211,6 +232,25 @@ a:focus {
           transform: rotate(90deg);
   top: 0;
 }
+
+/* Navbar en la parte superior para usuarios invitados */
+.top-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f9ece6; /* o cualquier color de fondo */
+}
+
+/* Navbar en la parte inferior para usuarios autenticados */
+.bottom-navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f9ece6; /* o cualquier color de fondo */
+}
+
 
 .user_option {
   display: -webkit-box;
@@ -420,7 +460,7 @@ a:focus {
 
 .saving_section .box {
   padding-top: 45px;
-  background-color: #7fd7eb;
+  background-color: #166285;
   color: #ffffff;
   border-radius: 15px;
 }
@@ -833,7 +873,6 @@ a:focus {
   color: #ffffff;
 }
 
-/* end info section */
 /* footer section*/
 .footer_section {
   margin-top: 45px;
@@ -967,6 +1006,107 @@ button {
     transform: scale(1.1) rotateY(10deg) translateY(-10px);
   }
 }
+
+/* style login */
+
+
+.container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.form-control:focus {
+  border-color: #0069ec;
+  box-shadow: 0 0 0 0.2rem rgba(0, 105, 236, 0.25);
+}
+
+.btn-primary {
+  background-color: #0069ec;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #0056d2;
+}
+
+.form-check-label {
+  color: #555;
+}
+
+a {
+  color: #0069ec;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*LOGIN*/
+
+
+
+.c-formContainer {
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.c-welcome {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.c-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-form__group {
+  margin-bottom: 20px;
+}
+
+.c-form__input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+/* Aquí puedes agregar más estilos como animaciones */
 
 
 /* end footer section*/

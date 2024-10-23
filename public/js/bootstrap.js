@@ -4455,3 +4455,4 @@ document.getElementById('radio-ship').addEventListener('change', function() {
   info.innerText = 'Más lento, pero más barato';
   info.style.backgroundColor = 'rgba(0, 255, 0, 0.15)'; /* Fondo más suave */
 });
+
