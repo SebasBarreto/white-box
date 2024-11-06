@@ -4385,6 +4385,47 @@
 
       return Toast;
     }();
+
+
+    /**login */
+
+
+    const customSignUpButton = document.getElementById('custom-signUp');
+const customSignInButton = document.getElementById('custom-signIn');
+const customContainer = document.getElementById('custom-container');
+
+customSignUpButton.addEventListener('click', () => {
+    customContainer.classList.add("right-panel-active");
+});
+
+customSignInButton.addEventListener('click', () => {
+    customContainer.classList.remove("right-panel-active");
+});
+const registerButton = document.getElementById('registerButton');
+
+registerButton.addEventListener('click', (event) => {
+    const password = document.getElementById('password').value;
+    const confirmPassword = document.getElementById('confirm-password').value;
+    const termsChecked = document.getElementById('terms').checked;
+
+    // Verificar que las contraseñas coincidan
+    if (password !== confirmPassword) {
+        event.preventDefault(); // Evita el envío del formulario
+        alert("Las contraseñas no coinciden. Por favor, intenta de nuevo.");
+        return;
+    }
+
+    // Verificar si los términos y condiciones han sido aceptados
+    if (!termsChecked) {
+        event.preventDefault();
+        alert("Debes aceptar los términos y condiciones para continuar.");
+        return;
+    }
+});
+
+
+
+
   /**
    * ------------------------------------------------------------------------
    * jQuery
@@ -4456,3 +4497,4 @@ document.getElementById('radio-ship').addEventListener('change', function() {
   info.style.backgroundColor = 'rgba(0, 255, 0, 0.15)'; /* Fondo más suave */
 });
 
+/*logo slider*/

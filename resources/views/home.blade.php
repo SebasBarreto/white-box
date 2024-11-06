@@ -344,15 +344,14 @@
       <a href="{{ route('categoria.index') }}" class="btn btn-primary">
         Ver Productos
       </a>
-
+      
     </div>
   </div>
 </section>
 
 <!-- end shop section -->
 
-
-  <!-- saving section -->
+<!-- saving section -->
 
   <section class="saving_section ">
     <div class="box">

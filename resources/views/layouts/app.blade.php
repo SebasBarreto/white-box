@@ -15,9 +15,10 @@
         @vite(['resources/css/app.scss', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
+        <div class="hexagon-background"></div>
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             @include('layouts.navigation')
-
+            
             <!-- Page Heading -->
             @isset($header)
                 <header class="bg-white dark:bg-gray-800 shadow">
@@ -40,5 +41,9 @@
         <script src="{{ asset('js/bootstrap.js') }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script src="{{ asset('js/custom.js') }}"></script>
+        
+        
+        
+        
 </body>
 </html>
