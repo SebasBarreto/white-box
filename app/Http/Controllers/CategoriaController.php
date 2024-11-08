@@ -9,10 +9,14 @@ class CategoriaController extends Controller
 {
     public function index()
     {
-        // Obtener todas las categorías
-        $categorias = Categoria::all();
-        
-        // Retornar la vista 'categoria' con las categorías
+        // Obtener solo las categorías que tienen al menos un artículo
+        $categorias = Categoria::has('articulos')->get();
         return view('includes.categoria', compact('categorias'));
+    }
+
+    public function show($slug)
+    {
+        $categoria = Categoria::where('slug', $slug)->firstOrFail();
+        return view('includes.categoria', ['categorias' => [$categoria]]);
     }
 }

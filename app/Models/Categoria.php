@@ -9,14 +9,11 @@ class Categoria extends Model
 {
     use HasFactory;
 
-    protected $table = 'categoria';
-
-    protected $fillable = [
-        'nombre', 'descripcion', 'condicion'
-    ];
+    protected $table = 'categoria'; // Asegúrate de que el nombre de la tabla es correcto
+    protected $primaryKey = 'idcategoria'; // Clave primaria, si es diferente a 'id'
 
     public function articulos()
-    {
-        return $this->hasMany(Articulo::class, 'idcategoria');
-    }
+{
+    return $this->hasMany(Articulo::class, 'idcategoria');
+}
 }

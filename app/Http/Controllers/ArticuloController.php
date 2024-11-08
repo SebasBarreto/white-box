@@ -2,16 +2,20 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Articulo;  // Asegúrate de que tienes el modelo Articulo
+use App\Models\Categoria;
+use App\Models\Articulo;
 
 class ArticuloController extends Controller
 {
-    public function index()
+    public function mostrarPorCategoria($slug)
     {
-        // Obtener todos los artículos de la base de datos
-        $articulos = Articulo::all();
+        // Buscar la categoría por slug
+        $categoria = Categoria::where('slug', $slug)->firstOrFail();
 
-        // Retornar la vista de ventas con los artículos
-        return view('tienda.ventas.ventas', compact('articulos'));
+        // Obtener los artículos asociados con la categoría
+        $articulos = Articulo::where('idcategoria', $categoria->idcategoria)->get();
+
+        // Pasar la categoría y sus artículos a la vista
+        return view('includes.categoria_detalle', compact('categoria', 'articulos'));
     }
 }

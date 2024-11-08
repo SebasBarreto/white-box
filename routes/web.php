@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\VentasController;
@@ -18,17 +19,23 @@ Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->na
 
 // Rutas GET principales
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/categoria', [CategoriaController::class, 'index'])->name('categoria.index');
-Route::get('/categoria/{idcategoria}', [CategoriaController::class, 'show'])->name('ventas.categoria');
+
+// Rutas de Categorías y Artículos
+Route::get('/categoria', [CategoriaController::class, 'index'])->name('categoria.index'); // Lista todas las categorías
+Route::get('/categoria/{slug}', [ArticuloController::class, 'mostrarPorCategoria'])->name('categoria.show'); // Muestra los artículos de una categoría específica
+
+// Redirección a la vista de categorías para tienda/ventas
 Route::get('/tienda/ventas', function () {
     return redirect()->route('categoria.index');
 })->name('ventas.index');
-Route::get('/categoria/{idcategoria}', [ArticuloController::class, 'mostrarPorCategoria'])->name('articulos.categoria');
+
+// Otras Rutas GET de la tienda
 Route::get('/tienda/pre', [PreController::class, 'index'])->name('pre.index');
 Route::get('/tienda/encargo', [EncargoController::class, 'index'])->name('encargo.index');
 Route::get('/tienda/buscar', [BuscarController::class, 'index'])->name('buscar.index');
 Route::get('/tienda/contacto', [ContactoController::class, 'index'])->name('contacto.index');
-Route::get('/tienda/ventas', [ArticuloController::class, 'index'])->name('ventas.index');
+
+// Ruta del dashboard
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -48,8 +55,3 @@ Route::post('/enviar-contacto', function (Illuminate\Http\Request $request) {
 
 // Rutas de Recursos
 Route::resource('articulos', ArticuloController::class);
-
-Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
-Route::post('/cart/add', [CartController::class, 'add'])->name('cart.add');
-Route::post('/cart/update', [CartController::class, 'update'])->name('cart.update');
-Route::post('/cart/remove', [CartController::class, 'remove'])->name('cart.remove');
