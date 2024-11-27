@@ -10,7 +10,7 @@ class EncargoController extends Controller
     // Método para mostrar el formulario
     public function index()
     {
-        return view('tienda.encargo');
+        return view('components.encargo');
     }
 
     // Método para manejar el formulario enviado

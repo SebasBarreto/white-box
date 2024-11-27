@@ -8,7 +8,7 @@ class ContactoController extends Controller
 {
     public function index()
     {
-        return view('tienda.contacto');
+        return view('components.contacto');
     }
 
     public function submit(Request $request)

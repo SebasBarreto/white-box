@@ -1,0 +1,669 @@
+/* Breadcrumb */
+.breadcrumb {
+  color: #000000;
+  background-color: rgba(251, 255, 0, 0.404);
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px auto;
+  width: 900px;
+}
+
+/* Contenedor principal */
+.product-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tarjetas con fondo translúcido */
+.product-card {
+  background: rgba(255, 255, 255, 0.2); /* Fondo translúcido */
+  backdrop-filter: blur(15px); /* Efecto de desenfoque */
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Flex para las columnas */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Contenedor principal */
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Imagen principal */
+.zoom-area {
+  position: relative;
+  width: 700px; /* Tamaño de la imagen principal */
+  height: auto;
+  overflow: hidden;
+}
+
+/* Imagen dentro del área de zoom */
+.zoom-area img {
+  width: 100%; /* Se adapta al ancho del contenedor */
+  height: auto; /* Mantiene las proporciones */
+  cursor: crosshair;
+}
+
+/* Vista previa del zoom */
+.zoom-preview {
+  position: absolute;
+  top: 0; /* Alinea con el top de la imagen principal */
+  left: 100%; /* Posiciona a la derecha de la imagen */
+  margin-left: 20px; /* Espacio entre la imagen y la vista previa */
+  width: 500px; /* Ajusta según el tamaño que desees */
+  height: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300%; /* Amplía lo suficiente para hacer zoom */
+  display: none; /* Está oculto por defecto */
+  z-index: 10; /* Asegura que esté sobre otros elementos */
+}
+
+/* Mostrar la vista previa al hacer hover sobre la imagen */
+.zoom-area:hover + .zoom-preview,
+.zoom-area:hover ~ .zoom-preview {
+  display: block; /* Muestra la vista previa cuando el cursor está sobre la imagen */
+}
+
+/* Asegúrate de que la vista previa no se desborde del lado derecho en pantallas pequeñas */
+@media (max-width: 768px) {
+  .zoom-preview {
+    left: 0; /* Cambia a la izquierda para pantallas más pequeñas */
+    top: 10px; /* Ajusta según el espacio que quieras */
+    margin-left: 0; /* Elimina el margen en pantallas pequeñas */
+    width: 100%; /* Ajusta el ancho al 100% de la pantalla */
+    height: auto; /* Mantiene la proporción */
+    background-size: contain; /* Asegura que la imagen se ajuste bien */
+  }
+}
+
+/* Alternativa con cálculo dinámico para pantallas más pequeñas */
+@media (max-width: 600px) {
+  .zoom-preview {
+    left: calc(100% + 10px); /* Mueve la vista previa 10px más hacia la derecha en pantallas más pequeñas */
+    width: 200px; /* Ajusta el tamaño del zoom */
+    height: 200px; /* Ajusta el tamaño del zoom */
+  }
+}
+
+
+
+/* Mini imágenes */
+.mini-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: center;
+}
+
+.mini-images img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.mini-images img:hover {
+  transform: scale(1.1);
+  border-color: #339fb9;
+}
+
+
+/* Títulos */
+h1, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #d8e42d;
+  text-shadow: 0px 2px 4px rgb(0, 0, 0);
+  margin-left: 25px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #d8e42d;
+  text-shadow: 0px 2px 4px rgb(0, 0, 0);
+  margin-left: 25px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+/* Detalles del producto */
+.stock {
+  width: 100px;
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px; /* Margen inferior */
+}
+
+.details, .stock {
+  width: 100%;
+  border-radius: 70px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+/* Stock dinámico */
+.stock p.green {
+  color: #4CAF50;
+}
+
+.stock p.orange {
+  color: #ffd000;
+}
+
+.stock p.red {
+  color: #FF0000;
+}
+
+
+/* atributos*/
+/* Contenedor de todos los atributos */
+.atributos-container {
+  background: rgba(255, 255, 255, 0.2); /* Fondo translúcido */
+  backdrop-filter: blur(8px); /* Efecto de desenfoque */
+  border-radius: 12px; /* Bordes más suaves */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Contenedor de cada grupo de atributos (ejemplo: Talla, Color) */
+.atributo-grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+/* Título de cada grupo (ejemplo: Talla, Color) */
+.atributo-grupo strong {
+  font-size: 14px;
+  color: #34811d;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Contenedor de los botones de cada grupo */
+.atributo-botones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 6px;
+}
+
+/* Botones de atributo */
+.atributo-boton {
+  padding: 5px 8px; /* Reducido para hacer los botones más pequeños */
+  background: rgba(255, 255, 255, 0.3); /* Fondo translúcido */
+  border-radius: 10px; /* Bordes redondeados */
+  cursor: pointer;
+  font-size: 12px; /* Reducido para mejor ajuste */
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.2s ease, border 0.2s ease;
+  margin-bottom: 8px;
+  border: 2px solid transparent; /* Borde transparente por defecto */
+}
+
+/* Hover en botones */
+.atributo-boton:hover {
+  background-color: #ebd72a;
+  transform: scale(1.05);
+}
+
+/* Botón seleccionado sin sombra */
+.atributo-boton.seleccionado {
+  border: 2px solid #fff; /* Borde blanco */
+  transform: scale(1.1); /* Ampliar ligeramente el botón */
+  color: #fff; /* Asegurar que el texto sea visible */
+  background-image: linear-gradient(to bottom, rgba(53, 159, 167, 0.8), rgba(0, 0, 0, 0.3)); /* Efecto de profundidad */
+  box-shadow: none; /* Eliminando la sombra */
+}
+
+/* Ajuste para botones oscuros */
+.atributo-boton.seleccionado[data-color="negro"] {
+  border-color: #f1c40f; /* Borde amarillo para destacar en botones negros */
+}
+.atributo-boton.seleccionado[data-color="blanco"] {
+  border-color: #2d96c0; /* Borde azul para destacar en botones blancos */
+}
+
+/* Color específico de cada botón */
+.color-boton[data-color="rojo"] {
+  background-color: red;
+}
+
+.color-boton[data-color="verde"] {
+  background-color: green;
+}
+
+.color-boton[data-color="azul"] {
+  background-color: blue;
+}
+
+.color-boton[data-color="amarillo"] {
+  background-color: yellow;
+  color: #000000;
+}
+
+.color-boton[data-color="naranja"] {
+  background-color: orange;
+}
+
+.color-boton[data-color="negro"] {
+  background-color: black;
+  color: white; /* Cambia el texto a blanco para mejor visibilidad */
+}
+
+.color-boton[data-color="blanco"] {
+  background-color: white;
+  color: black; /* Cambia el texto a negro */
+}
+
+/* Efecto "clicado" */
+.atributo-boton:active {
+  transform: scale(1); /* Vuelve al tamaño original momentáneamente */
+}
+
+.atributo-boton:disabled {
+  background-color: #ccc; /* Color de fondo gris */
+  color: #666; /* Texto atenuado */
+  cursor: not-allowed; /* Cursor de "no permitido" */
+  opacity: 0.6; /* Reducir opacidad */
+}
+
+/* atributos end*/
+
+/* Métodos de pago */
+.payment-methods h3 {
+  color: #00c0ff;
+  text-shadow: #000000;
+  margin-right: 50px;
+}
+
+.payment-methods ul {
+  list-style-type: disc;
+  color: #000000;
+}
+/* Cantidad con diseño atractivo */
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.quantity .btn-quantity {
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000000;
+  background-color: #49ced8;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.quantity .btn-quantity:hover {
+  transform: scale(1.1);
+  background-color: #53e718;
+}
+
+.quantity input[type="number"] {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: rgba(73, 70, 70, 0.349);
+  color: #fff;
+  backdrop-filter: blur(5px);
+}
+
+/* Botones */
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 150px; /* Ocupa todo el ancho */
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  width: 60%;
+}
+
+.btn-secondary {
+  background-color: #2196F3;
+  width: 60%;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
+.btn-favorite {
+  background-color: #FF5722;
+  width: 60%;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Contenedor padre */
+/* Contenedor padre con separación */
+.split-container {
+  display: flex;
+  gap: 10px; /* Espacio entre las cajas */
+  flex-wrap: wrap; /* Permite que las cajas se apilen en pantallas pequeñas */
+  justify-content: space-between; /* Distribuye las cajas equitativamente */
+  margin-bottom: 10px; /* Espaciado inferior */
+}
+
+/* Sección dividida */
+.split-section {
+  flex: 1; /* Ajusta el ancho automáticamente */
+  min-width: 280px; /* Ancho mínimo para pantallas pequeñas */
+  max-width: 48%; /* Limita el ancho en pantallas grandes */
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Contenido con altura máxima */
+.content {
+  max-height: 800px; /* Altura máxima inicial */
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  min-height: auto;
+  margin-top: -50px;
+}
+
+/* Botón Leer más */
+.toggle-btn {
+  display: block; /* Asegúrate de que el botón sea visible */
+  background-color: #007bff28;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  position: absolute; /* Asegura que esté sobrepuesto */
+  bottom: 10px; /* Alineado al final de la sección */
+  right: 10px; /* Alineado a la derecha */
+  z-index: 10; /* Encima de otros elementos */
+}
+
+
+.toggle-btn:hover {
+  background-color: #007bff28;
+}
+
+/* Contenido */
+.content {
+  max-height: 190px; /* Altura máxima inicial */
+  overflow: hidden; /* Oculta el contenido adicional */
+  transition: max-height 0.3s ease-in-out; /* Suaviza la expansión/contracción */
+  margin-top: -50px;
+}
+
+.content.expanded {
+  overflow: visible; /* Permite ver el contenido completo cuando está expandido */
+}
+
+.toggle-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+/* Contenido desplazable */
+.scrollable-content {
+  max-height: 150px; /* Altura máxima visible */
+  overflow-y: auto; /* Activa el scroll vertical si es necesario */
+  padding-right: 10px; /* Espacio adicional para el scrollbar */
+}
+
+/* Estilo del scrollbar */
+.scrollable-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3); /* Color del thumb */
+  border-radius: 10px;
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+  background: transparent; /* Fondo del scrollbar */
+}
+
+/* Texto de las tarjetas */
+h3 {
+  color: #42d0f3;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+/* Comentarios */
+
+/* Contenedor para Comentarios y Productos Relacionados */
+.split-container-bottom {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Estilo de las tarjetas dentro del contenedor inferior */
+.split-container-bottom .product-card {
+  flex: 1;
+  max-width: 48%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: #fff;
+}
+
+/* Contenido desplazable para los comentarios y productos relacionados */
+.split-container-bottom .scrollable-content {
+  max-height: 150px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Personalización del scrollbar */
+.split-container-bottom .scrollable-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.split-container-bottom .scrollable-content::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.split-container-bottom .scrollable-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+/* Productos relacionados */
+
+/* Estilo específico para la tarjeta de comentarios */
+.comments-card {
+  background: rgba(56, 60, 247, 0.2);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo específico para la tarjeta de productos relacionados */
+.related-products-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor de desplazamiento horizontal para productos relacionados */
+.scrollable-horizontal {
+  display: flex;
+  justify-content: flex-end; /* Alinea los productos hacia la derecha */
+  gap: 20px; /* Espaciado entre productos */
+  overflow-x: auto; /* Activa el scroll horizontal */
+  padding: 10px;
+  scroll-behavior: smooth; /* Movimiento suave */
+  box-sizing: border-box;
+}
+
+/* Productos relacionados individuales */
+.related-item {
+  flex: 0 0 150px; /* Ajusta el ancho de cada producto */
+  max-width: 150px;
+  text-align: center; /* Centra el texto del producto */
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover en productos relacionados */
+.related-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Imagen del producto */
+.related-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/* Personalización del scrollbar */
+.scrollable-horizontal::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scrollable-horizontal::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.scrollable-horizontal::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -webkit-appearance: none; /* Para navegadores basados en WebKit */
+    appearance: none; /* Propiedad estándar */
+    -moz-appearance: textfield; /* Para navegadores basados en Mozilla */
+}
+
+

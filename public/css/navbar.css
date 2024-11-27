@@ -1,0 +1,350 @@
+  #navbar {
+    position: fixed !important; /* Fijo en la parte superior */
+    top: 0 !important;
+    width: 95%; /* Asegúrate de que ocupe el ancho completo */
+    transition: top 0.3s; /* Añade una transición suave */
+    z-index: 1000; /* Para asegurarte de que esté por encima de otros elementos */
+    background-color: transparent;
+    box-shadow: none;
+    }
+    
+  #navbarSupportedContent {
+    width: 100%;
+    background-color: #867d7080;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px 0;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  #navbarSupportedContent.innerpage_navbar {
+    background-color: rgba(221, 208, 29, 0.514);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 3px 0 rgba(12, 11, 11, 0.25);
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  #navbarSupportedContent.innerpage_navbar .nav-item.active .nav-link {
+    background-color: #f4f5f6;
+  }
+  
+  #navbarSupportedContent .navbar-nav .nav-link {
+    padding: 5px 25px;
+    color: #44cee0;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: medium;
+    margin: 0 auto; /* Centra el texto "White Box" horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #navbarSupportedContent .nav-item.active .nav-link {
+    background-color: #d1dd2c;
+  }
+  
+  a,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    color: initial;
+  }
+  
+  .btn,
+  .btn:focus {
+    outline: none !important;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  .navbar-brand {
+    margin: 15px 0;
+    padding: 0;
+    color: #e2e611; 
+    text-shadow: none; 
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; 
+  }
+  
+  .navbar-brand span {
+    font-size: 35px; 
+    font-weight: bold; 
+    color: #e2e611; 
+    text-transform: uppercase; 
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffffff; 
+    text-shadow: 0 0 10px #4ed3d3; 
+  }
+  
+  .navbar-brand:hover span {
+    color: #ffffff; 
+  }
+  
+  .custom_nav-container .nav_search-btn {
+    padding: 0;
+    border: none;
+  }
+  
+  .custom_nav-container {
+    z-index: 99999;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    outline: none;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    outline: none;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    padding: 0;
+    width: 37px;
+    height: 42px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .custom_nav-container .navbar-toggler span {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: #fb0030;
+    margin: 7px 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .custom_nav-container .navbar-toggler span::before, .custom_nav-container .navbar-toggler span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #cdcf29;
+    top: -10px;
+    border-radius: 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  
+  .custom_nav-container .navbar-toggler span::after {
+    top: 10px;
+  }
+  
+  .custom_nav-container .navbar-toggler[aria-expanded="true"] {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  
+  .custom_nav-container .navbar-toggler[aria-expanded="true"] span {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+  .custom_nav-container .navbar-toggler[aria-expanded="true"] span::before, .custom_nav-container .navbar-toggler[aria-expanded="true"] span::after {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    top: 0;
+  }
+  
+  /* Navbar en la parte superior para usuarios invitados */
+  .top-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #8a49b6; /* o cualquier color de fondo */
+  }
+  
+  /* Navbar en la parte inferior para usuarios autenticados */
+  .bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #b091d8; /* o cualquier color de fondo */
+  }
+  
+  
+  .user_option {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 25px;
+  }
+  
+  .user_option a {
+    margin-right: 25px;
+    color: #000000;
+  }
+  
+  .user_option a span {
+    margin-left: 5px;
+  }
+
+/* Contenedor principal del navbar */
+.navbar-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+/* Centrar la marca */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Estilo para la sección de búsqueda y carrito */
+/* Contenedor de búsqueda */
+.search-and-cart {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+/* Ocultar la barra de búsqueda inicialmente */
+.input-field.collapsed .search-form {
+  display: none;
+}
+
+/* Mostrar la barra al hacer clic */
+.input-field.expanded .search-form {
+  display: flex;
+  align-items: center;
+}
+
+/* Input de búsqueda */
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre el logo y el texto */
+}
+
+.search-input {
+  flex: 1;
+  border-bottom: 2px solid #f0f424; /* Asegura consistencia */
+}
+.search-input {
+  background: transparent; /* Fondo transparente */
+  border: none; /* Sin bordes adicionales */
+  outline: none; /* Eliminar el cuadro al hacer clic */
+  color: #fff; /* Texto blanco */
+  font-size: 16px;
+  border-bottom: 2px solid #f0f424; /* Línea amarilla debajo */
+  padding: 0 10px;
+  width: 40%;
+}
+
+/* Botón SVG */
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* SVG inicial */
+.search-toggle {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.search-toggle svg {
+  display: block;
+  margin: 0 auto;
+  fill: #f0f424; /* Color blanco para el SVG */
+  width: 24px;
+  height: 24px;
+}
+
+/* Contenedor del buscador */
+.input-field {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Ocultar la barra de búsqueda inicialmente */
+.input-field.collapsed .search-form {
+  display: none;
+}
+
+/* Mostrar la barra al hacer clic */
+.input-field.expanded .search-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+/* Input de búsqueda */
+.search-input {
+  flex: 1;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  border-bottom: 2px solid #f0f424;
+  padding: 0 10px;
+}
+
+/* Botón de búsqueda */
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Eliminar contenedores no deseados del SVG del botón */
+.search-button svg {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+}

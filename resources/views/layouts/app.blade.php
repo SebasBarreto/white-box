@@ -10,6 +10,9 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link href="{{ asset('css/background.css') }}" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
+        <link href="{{ asset('css/info.css') }}" rel="stylesheet" />
 
         <!-- Scripts -->
         @vite(['resources/css/app.scss', 'resources/js/app.js'])
@@ -18,6 +21,8 @@
         <div class="hexagon-background"></div>
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             @include('layouts.navigation')
+            
+            
             
             <!-- Page Heading -->
             @isset($header)

@@ -53,6 +53,9 @@ class Kernel extends HttpKernel
         'auth.custom' => \App\Http\Middleware\AuthMiddleware::class, // Tu middleware personalizado
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-        // Otros middleware que necesites
-    ];
+        'role' => \App\Http\Middleware\CheckRole::class,
+        'role' => \App\Http\Middleware\CheckRole::class,
+        'role' => \App\Http\Middleware\CheckRole::class,
+];
+
 }

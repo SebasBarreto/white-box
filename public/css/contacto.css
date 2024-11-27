@@ -1,0 +1,78 @@
+/* Estilos específicos para la página de contacto */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .contact-box {
+    width: 50%;
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .input-field i {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: #333;
+  }
+  
+  .input-field input, .input-field textarea {
+    width: calc(100% - 40px);
+    padding-left: 40px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+  }
+  
+  .btn-block .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #57c631;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-block .btn i {
+    margin-left: 10px;
+  }
+  
+  .large-switch {
+    width: 100px;  /* Hacer los switches más grandes */
+    height: 50px;
+  }
+  
+  .plane-switch input + div, .ship-switch input + div {
+    background: #ccc;  /* Gris por defecto */
+  }
+  
+  .plane-switch input:checked + div, .ship-switch input:checked + div {
+    background: linear-gradient(90deg, var(--sky-1) 0%, var(--sky-2) 100%);  /* Cambia a color cuando se selecciona */
+  }
+  
+  /* Ajustar tamaño de los elementos SVG (íconos de transporte) */
+  .plane-switch svg, .ship-switch svg {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .transport-switches {
+    display: flex;
+    gap: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  

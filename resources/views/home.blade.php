@@ -11,7 +11,7 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/categoria/home//favicon.png" type="image/x-icon">
 
   <title>
     White Box
@@ -21,6 +21,7 @@
   <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}" />
   <!-- bootstrap core css -->
   <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
+  <link href="{{ asset('css/home.css') }}" rel="stylesheet" />
 
     @extends('layouts.app')
 
@@ -38,9 +39,9 @@
                         Bienvenidos a <br>
                         White Box
                       </h1>
-                       <p> <h3> Compra, Encarga y Ahorra con Nosotros  </h3></p>
+                      <p> <h3> Compra, Encarga y Ahorra con Nosotros  </h3></p>
                       <p>
-                       <p>
+                      <p>
                       ¿Estás buscando los productos más novedosos y con las mejores ofertas del mercado? ¡Estás en el lugar correcto! En White Box ofrecemos productos exclusivos que puedes pre-ordenar con increíbles descuentos antes de que lleguen al país. Asegura tu compra ahora y sé de los primeros en recibirlos cuando estén disponibles.
                       </p>
                       <a href="{{ route('contacto.index') }}">
@@ -50,7 +51,7 @@
                   </div>
                   <div class="col-md-5 ">
                     <div class="img-box">
-                      <img src="images/slider-img.png" alt="" />
+                      <img src="images/categoria/home/slider-img.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -76,7 +77,7 @@
                   </div>
                   <div class="col-md-5 ">
                     <div class="img-box">
-                      <img src="images/slider-img.png" alt="" />
+                      <img src="images/categoria/home/slider-img.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -95,13 +96,13 @@
                       <p>
                       ¿Tienes un producto en mente que no puedes encontrar en el país? Nosotros lo conseguimos por ti. Realiza tu encargo, nosotros nos encargamos de todo el trámite, y por una pequeña comisión, recibirás tu producto sin preocupaciones.                      </p>
                       <a href="">
-                         Asesoria
+                        Asesoria
                       </a>
                     </div>
                   </div>
                   <div class="col-md-5 ">
                     <div class="img-box">
-                      <img src="images/slider-img.png" alt="" />
+                      <img src="images/categoria/home/slider-img.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -113,7 +114,7 @@
               <i class="fa fa-arrow-left" aria-hidden="true"></i>
               <span class="sr-only">Anterior</span>
             </a>
-            <img src="images/line.png" alt="" />
+            <img src="images/categoria/home/line.png" alt="" />
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
               <i class="fa fa-arrow-right" aria-hidden="true"></i>
               <span class="sr-only">Siguiente</span>
@@ -143,7 +144,7 @@
         <div class="box">
           <a href="">
             <div class="img-box">
-              <img src="images/p1.png" alt="">
+              <img src="images/categoria/home/p1.png" alt="">
             </div>
             <div class="detail-box">
               <h6>
@@ -168,7 +169,7 @@
         <div class="box">
           <a href="">
             <div class="img-box">
-              <img src="images/p2.png" alt="">
+              <img src="images/categoria/home/p2.png" alt="">
             </div>
             <div class="detail-box">
               <h6>
@@ -193,7 +194,7 @@
         <div class="box">
           <a href="">
             <div class="img-box">
-              <img src="images/p3.png" alt="">
+              <img src="images/categoria/home/p3.png" alt="">
             </div>
             <div class="detail-box">
               <h6>
@@ -218,7 +219,7 @@
         <div class="box">
           <a href="">
             <div class="img-box">
-              <img src="images/p4.png" alt="">
+              <img src="images/categoria/home/p4.png" alt="">
             </div>
             <div class="detail-box">
               <h6>
@@ -243,7 +244,7 @@
         <div class="box">
           <a href="">
             <div class="img-box">
-              <img src="images/p5.png" alt="">
+              <img src="images/categoria/home/p5.png" alt="">
             </div>
             <div class="detail-box">
               <h6>
@@ -268,7 +269,7 @@
         <div class="box">
           <a href="">
             <div class="img-box">
-              <img src="images/p6.png" alt="">
+              <img src="images/categoria/home/p6.png" alt="">
             </div>
             <div class="detail-box">
               <h6>
@@ -293,7 +294,7 @@
         <div class="box">
           <a href="">
             <div class="img-box">
-              <img src="images/p7.png" alt="">
+              <img src="images/categoria/home/p7.png" alt="">
             </div>
             <div class="detail-box">
               <h6>
@@ -318,7 +319,7 @@
         <div class="box">
           <a href="">
             <div class="img-box">
-              <img src="images/p8.png" alt="">
+              <img src="images/categoria/home/p8.png" alt="">
             </div>
             <div class="detail-box">
               <h6>
@@ -359,7 +360,7 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="img-box">
-              <img src="images/saving-img.png" alt="">
+              <img src="images/categoria/home/saving-img.png" alt="">
             </div>
           </div>
           <div class="col-lg-6">
@@ -648,7 +649,7 @@
           <div class="col-md-5">
             <div class="img_container">
               <div class="img-box">
-                <img src="images/gifts.png" alt="">
+                <img src="images/categoria/home/gifts.png" alt="">
               </div>
             </div>
           </div>

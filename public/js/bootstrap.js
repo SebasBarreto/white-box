@@ -4423,8 +4423,54 @@ registerButton.addEventListener('click', (event) => {
     }
 });
 
+/*categoria detalle*/
+
+function toggleFavorito(productoId, button) {
+  // Cambiar estado activo/inactivo
+  const isActive = button.getAttribute('data-active') === 'true';
+  button.setAttribute('data-active', !isActive);
+
+  // Aquí puedes agregar lógica para enviar una solicitud AJAX y guardar el estado en la base de datos
+  console.log(`Producto ${productoId} marcado como favorito: ${!isActive}`);
+}
+
+function toggleCarrito(productoId, button) {
+  // Cambiar estado activo/inactivo
+  const isActive = button.getAttribute('data-active') === 'true';
+  button.setAttribute('data-active', !isActive);
+
+  // Aquí puedes agregar lógica para enviar una solicitud AJAX y guardar el estado en la base de datos
+  console.log(`Producto ${productoId} añadido al carrito: ${!isActive}`);
+}
 
 
+/* prodcuto detalle */
+
+function mostrarDescripcion() {
+  const descripcion = document.querySelector('.descripcion');
+  descripcion.style.height = 'auto'; // Expande la altura
+  document.getElementById('verMas').style.display = 'none'; // Oculta el botón
+}
+
+/* producto detalle end*/
+
+/* contador*/
+
+function increaseQuantity() {
+  let input = document.getElementById("quantity");
+  if (parseInt(input.value) < parseInt(input.max)) {
+      input.value = parseInt(input.value) + 1;
+  }
+}
+
+function decreaseQuantity() {
+  let input = document.getElementById("quantity");
+  if (parseInt(input.value) > parseInt(input.min)) {
+      input.value = parseInt(input.value) - 1;
+  }
+}
+
+/* contador end*/
 
   /**
    * ------------------------------------------------------------------------

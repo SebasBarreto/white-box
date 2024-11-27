@@ -72,4 +72,33 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
         ]);
     }
+
+    public function register(Request $request)
+{
+    // Validación de los datos
+    $validated = $request->validate([
+        'name' => 'required|string|max:255',
+        'email' => 'required|string|email|max:255|unique:users',
+        'phone' => 'nullable|string|max:15',  // Si deseas permitir teléfono
+        'password' => 'required|string|min:8|confirmed',
+    ]);
+
+    // Crear el usuario
+    $user = User::create([
+        'name' => $validated['name'],
+        'email' => $validated['email'],
+        'phone' => $validated['phone'],  // Si usas teléfono
+        'password' => bcrypt($validated['password']),
+        'role' => 'user',  // Asignamos el rol de usuario no admin
+    ]);
+
+    // Iniciar sesión automáticamente
+    Auth::login($user);
+
+    // Redirigir al dashboard o página principal
+    return redirect()->route('dashboard');
 }
+
+}
+
+

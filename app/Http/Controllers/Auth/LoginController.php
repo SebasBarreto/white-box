@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 
 class LoginController extends Controller
 {
@@ -23,18 +24,27 @@ class LoginController extends Controller
 
     public function login(Request $request)
     {
-        $request->validate([
-            'email' => 'required|email',
-            'password' => 'required|min:6',
-        ]);
+    $request->validate([
+        'login' => 'required',  // Correo o Teléfono
+        'password' => 'required|string',
+    ]);
 
-        if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
-            return redirect()->intended('home'); // Cambia a la ruta que desees
-        }
+    // Buscar usuario por correo o teléfono
+    $user = User::where('email', $request->login)
+                ->orWhere('phone', $request->login)
+                ->first();
 
-        return redirect()->back()->withErrors([
-            'email' => 'Las credenciales proporcionadas son incorrectas.',
-        ]);
+    if ($user && Hash::check($request->password, $user->password)) {
+        // Iniciar sesión
+        Auth::login($user);
+
+        return redirect()->intended('/dashboard');  // Redirigir al dashboard o a la página que desees
+    }
+
+    // Si no se encuentra el usuario o la contraseña no coincide
+    return back()->withErrors([
+        'login' => 'Las credenciales no coinciden con nuestros registros.',
+    ]);
     }
 
     public function logout()

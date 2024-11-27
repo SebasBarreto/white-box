@@ -8,6 +8,6 @@ class PreController extends Controller
 {
     public function index()
     {
-        return view('tienda.pre');
+        return view('components.preventa');
     }
 }
