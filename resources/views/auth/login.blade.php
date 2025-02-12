@@ -1,79 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Basic -->
+    <!-- Metadatos -->
     <meta charset="utf-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- Site Metas -->
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link rel="shortcut icon" href="images/categoria/home/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>White Box - Login</title>
 
-    <title>
-    WB-Encargos
-    </title>
-
-    <!-- Bootstrap CSS -->
+    <!-- Estilos -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}" />
-    <!-- Custom CSS -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
-    <link href="{{ asset('css/login.css') }}" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/_variables.css') }}">
     <link href="{{ asset('css/switches.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/login.css') }}" rel="stylesheet" />
 </head>
 
 <body>
-@extends('layouts.app')
+    @extends('layouts.app')
 
-@section('content')
-<div class="custom-container" id="custom-container">
-    <div class="custom-form-container custom-sign-up-container">
-        <form action="{{ route('register') }}" method="POST">
-			@csrf
-            <h1>Crear Cuenta</h1>
-            <input type="text" placeholder="Nombre" required />
-            <input type="email" placeholder="Correo" required />
-            <input type="tel" placeholder="Número de Teléfono" required pattern="[0-9]{10}" />
-            <input type="password" id="password" placeholder="Contraseña" required />
-            <!-- Términos y condiciones -->
-            <div class="terms-container">
-                <input type="checkbox" id="terms" required />
-                <label for="terms">Autorizo el uso de mis datos en los siguientes <a href="#">términos y condiciones</a></label>
+    @section('content')
+    <div class="login-form">
+        <h2 class="login-title">INICIAR SESIÓN</h2>
+
+        <!-- Mensajes de estado de sesión -->
+        @if (session('status'))
+            <div class="session-status">
+                {{ session('status') }}
+            </div>
+        @endif
+
+        <form method="POST" action="{{ route('login') }}">
+            @csrf
+
+            <!-- Login (Email o Teléfono) -->
+            <div class="form-group">
+                <label for="login" class="form-label">Correo Electrónico o Teléfono</label>
+                <input id="login" type="text" name="login" value="{{ old('login') }}" required autofocus placeholder="Correo Electrónico o Teléfono" class="form-input">
+                @error('login')
+                    <p class="form-error">{{ $message }}</p>
+                @enderror
             </div>
 
-            <button type="submit" id="registerButton">Registrarse</button>
-        </form>
-    </div>
-    <div class="custom-form-container custom-sign-in-container">
-        <form action="{{ route('login') }}" method="POST">
-			@csrf
-            <h1>Iniciar Sesión</h1>
-            <input type="email" placeholder="Correo" />
-            <input type="password" placeholder="Contraseña" />
-            <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
-            <button>Iniciar Sesión</button>
-        </form>
-    </div>
-    <div class="custom-overlay-container">
-        <div class="custom-overlay">
-            <div class="custom-overlay-panel custom-overlay-left">
-                <h1>Bienvenido Nuevamente a White Box!</h1>
-                <p>Para mantenerte conectado con nosotros, inicia sesión con tu información personal.</p>
-                <button class="custom-ghost" id="custom-signIn">Iniciar Sesión</button>
+            <!-- Contraseña -->
+            <div class="form-group">
+                <label for="password" class="form-label">Contraseña</label>
+                <input id="password" type="password" name="password" required placeholder="Contraseña" class="form-input">
+                @error('password')
+                    <p class="form-error">{{ $message }}</p>
+                @enderror
             </div>
-            <div class="custom-overlay-panel custom-overlay-right">
-                <h1>¡Bienvenido a White Box!</h1>
-                <p>Traemos lo mejor de EE.UU, Asia, Europa, China hasta ti. Ingresa tus datos y comienza a comprar y/o recibir productos exclusivos con nosotros.</p>
-                <button class="custom-ghost" id="custom-signUp">Registrarse</button>
+
+            <!-- Mantener sesión iniciada -->
+            <div class="form-group flex justify-between">
+                <label class="checkbox-container">
+                    <input id="remember" type="checkbox" name="remember" class="form-checkbox">
+                    <span class="checkbox-label">Mantener Sesión Iniciada</span>
+                </label>
+                @if (Route::has('password.request'))
+                    <a href="{{ route('password.request') }}" class="link-forgot-password">¿Olvidaste tu contraseña?</a>
+                @endif
             </div>
+
+            <!-- Botón de inicio de sesión -->
+            <div class="form-group flex justify-between">
+                <button type="submit" class="btn-primary">
+                    Iniciar Sesión
+                </button>
+            </div>
+        </form>
+
+        <!-- Enlace a registro -->
+        <div class="register-link text-center">
+            <p class="register-text">¿No tienes cuenta? <a href="{{ route('register') }}" class="link-register">Regístrate aquí</a></p>
         </div>
     </div>
-</div>
-@endsection
+    @endsection
 </body>
 </html>
-

@@ -3,53 +3,51 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use App\Models\User;
 
 class LoginController extends Controller
 {
-    use AuthenticatesUsers;
-
-    /*public function __construct()
-    {
-        $this->middleware('guest')->except('logout');
-    }*/
-
     public function showLoginForm()
     {
-        return view('auth.login');
+        return view('auth.login'); // Asegúrate de que esta vista exista
     }
 
     public function login(Request $request)
     {
-    $request->validate([
-        'login' => 'required',  // Correo o Teléfono
-        'password' => 'required|string',
-    ]);
+        // Validar los campos del formulario
+        $request->validate([
+            'login' => ['required'], // Puede ser email o teléfono
+            'password' => ['required'],
+        ]);
 
-    // Buscar usuario por correo o teléfono
-    $user = User::where('email', $request->login)
-                ->orWhere('phone', $request->login)
-                ->first();
+        // Preparar las credenciales
+        $credentials = ['password' => $request->password];
 
-    if ($user && Hash::check($request->password, $user->password)) {
-        // Iniciar sesión
-        Auth::login($user);
+        if (filter_var($request->login, FILTER_VALIDATE_EMAIL)) {
+            $credentials['email'] = $request->login;
+        } else {
+            $credentials['phone'] = $request->login;
+        }
 
-        return redirect()->intended('/dashboard');  // Redirigir al dashboard o a la página que desees
+        // Intentar autenticación
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate(); // Regenerar la sesión para evitar ataques de sesión fijada
+            return redirect()->intended('dashboard'); // Redirigir al dashboard o página segura
+        }
+
+        // Si la autenticación falla
+        return back()->withErrors([
+            'login' => 'Las credenciales no coinciden.',
+        ]);
     }
 
-    // Si no se encuentra el usuario o la contraseña no coincide
-    return back()->withErrors([
-        'login' => 'Las credenciales no coinciden con nuestros registros.',
-    ]);
-    }
-
-    public function logout()
+    public function logout(Request $request)
     {
-        Auth::logout();
-        return redirect('/'); // Redirige a la página de inicio
+        Auth::logout(); // Cerrar sesión
+        $request->session()->invalidate(); // Invalidar la sesión
+        $request->session()->regenerateToken(); // Regenerar el token CSRF
+
+        return redirect('/'); // Redirigir al usuario a la página de inicio
     }
 }

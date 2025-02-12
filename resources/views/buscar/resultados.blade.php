@@ -21,6 +21,7 @@
     <!-- Custom CSS -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/switches.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/resultadosbuscar.css') }}" rel="stylesheet" />
 </head>
 
 <body>

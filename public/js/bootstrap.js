@@ -63,6 +63,28 @@
     return target;
   }
 
+  // Habilitar tooltips en todos los elementos con data-bs-toggle="tooltip"
+    document.addEventListener('DOMContentLoaded', function () {
+      var tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      var tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // Obtiene todos los enlaces de la barra de navegación
+      const navbarItems = document.querySelectorAll('.navbar-item');
+  
+      // Recorre todos los íconos
+      navbarItems.forEach(item => {
+          // Compara la URL del enlace con la URL actual para identificar el ícono activo
+          if (window.location.href === item.href) {
+              item.classList.add('active');  // Activa el ícono correspondiente
+          } else {
+              item.classList.remove('active');  // Desactiva los demás íconos
+          }
+      });
+  });
+  
+
   function _inheritsLoose(subClass, superClass) {
     subClass.prototype = Object.create(superClass.prototype);
     subClass.prototype.constructor = subClass;
@@ -4472,6 +4494,34 @@ function decreaseQuantity() {
 
 /* contador end*/
 
+
+
+
+
+// Mostrar la notificación de error si existe
+(session('error'))
+    document.getElementById('notification').style.visibility = 'visible';
+
+
+// Función para cerrar la notificación
+function closeNotification() {
+    document.getElementById('notification').style.visibility = 'hidden';
+}
+
+document.getElementById('radio-plane').addEventListener('change', function() {
+  const info = document.getElementById('transport-info');
+  info.innerText = 'Más rápido, pero más caro';
+  info.style.backgroundColor = 'rgba(108, 99, 255, 0.15)'; /* Fondo más suave */
+});
+
+document.getElementById('radio-ship').addEventListener('change', function() {
+  const info = document.getElementById('transport-info');
+  info.innerText = 'Más lento, pero más barato';
+  info.style.backgroundColor = 'rgba(0, 255, 0, 0.15)'; /* Fondo más suave */
+});
+
+/*logo slider*/
+
   /**
    * ------------------------------------------------------------------------
    * jQuery
@@ -4531,16 +4581,4 @@ function decreaseQuantity() {
 }));
 //# sourceMappingURL=bootstrap.js.map
 
-document.getElementById('radio-plane').addEventListener('change', function() {
-  const info = document.getElementById('transport-info');
-  info.innerText = 'Más rápido, pero más caro';
-  info.style.backgroundColor = 'rgba(108, 99, 255, 0.15)'; /* Fondo más suave */
-});
 
-document.getElementById('radio-ship').addEventListener('change', function() {
-  const info = document.getElementById('transport-info');
-  info.innerText = 'Más lento, pero más barato';
-  info.style.backgroundColor = 'rgba(0, 255, 0, 0.15)'; /* Fondo más suave */
-});
-
-/*logo slider*/

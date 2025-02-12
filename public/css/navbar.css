@@ -194,19 +194,29 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     margin-left: 25px;
-  }
-  
-  .user_option a {
+}
+
+.user_option a {
     margin-right: 25px;
     color: #000000;
-  }
-  
-  .user_option a span {
+}
+
+.user_option a span {
     margin-left: 5px;
-  }
+}
+
+/* Estilo cuando el usuario está logueado */
+.user_option .user-logged-in {
+    color: yellow; /* Cambia a amarillo */
+}
+
+.user_option .user-logged-in span {
+    color: yellow; /* Asegura que el texto también sea amarillo */
+}
+
 
 /* Contenedor principal del navbar */
 .navbar-content {
@@ -246,12 +256,21 @@
   display: flex;
   align-items: center;
 }
+.input-field.expanded .search-input {
+    display: block;
+    width: 200px; /* Ancho deseado al expandir */
+    transition: width 0.3s ease; /* Transición suave */
+}
 
 /* Input de búsqueda */
 .search-container {
+  position: absolute;
+  top: 50%; /* Céntralo verticalmente */
+  right: 20px; /* Ajusta la distancia desde la derecha */
+  transform: translateY(-50%);
   display: flex;
   align-items: center;
-  gap: 10px; /* Espacio entre el logo y el texto */
+  gap: 10px; /* Espacio entre el SVG y el campo de búsqueda */
 }
 
 .search-input {
@@ -259,14 +278,15 @@
   border-bottom: 2px solid #f0f424; /* Asegura consistencia */
 }
 .search-input {
-  background: transparent; /* Fondo transparente */
-  border: none; /* Sin bordes adicionales */
-  outline: none; /* Eliminar el cuadro al hacer clic */
-  color: #fff; /* Texto blanco */
+  display: none; /* Oculta inicialmente */
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
   font-size: 16px;
-  border-bottom: 2px solid #f0f424; /* Línea amarilla debajo */
+  border-bottom: 2px solid #f0f424;
   padding: 0 10px;
-  width: 40%;
 }
 
 /* Botón SVG */

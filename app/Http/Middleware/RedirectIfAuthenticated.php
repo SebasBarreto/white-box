@@ -18,9 +18,10 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
-            return redirect('/');
+            return redirect()->intended('/dashboard'); // Redirigir al dashboard si el usuario ya está autenticado
         }
 
         return $next($request);
     }
 }
+

@@ -9,16 +9,19 @@ class Encargo extends Model
 {
     use HasFactory;
 
-    protected $table = 'encargo'; // Nombre en singular
-    protected $primaryKey = 'id'; // Clave primaria estándar
+    protected $table = 'encargos';
 
-    // Los campos que pueden ser llenados en masa
-    protected $fillable = [
-        'nombre_producto', 
-        'cantidad', 
-        'descripcion_del_producto', 
-        'transporte', 
-        'lugar_de_destino', 
-        'correo_electronico'
-    ];
+    protected $fillable = ['usuario_id', 'producto_id', 'cantidad', 'estado'];
+
+    // Relación con cliente
+    public function cliente()
+    {
+        return $this->belongsTo(Cliente::class, 'usuario_id');
+    }
+
+    // Relación con producto
+    public function producto()
+    {
+        return $this->belongsTo(Producto::class, 'producto_id');
+    }
 }

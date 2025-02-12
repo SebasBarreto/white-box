@@ -2,40 +2,36 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Encargo;
+use App\Models\Producto;
+use App\Models\Cliente;
 use Illuminate\Http\Request;
-use App\Models\Encargo; 
 
 class EncargoController extends Controller
 {
-    // Método para mostrar el formulario
-    public function index()
+    // Obtener el cliente asociado al usuario actual
+    private function getCliente()
     {
-        return view('components.encargo');
+        return Cliente::where('usuario_id', auth()->id())->first();
     }
 
-    // Método para manejar el formulario enviado
-    public function store(Request $request)
+    // Registrar un encargo
+    public function registrar(Request $request, $producto_id)
     {
-        Encargo::create($request->all()); // Almacena el encargo en la BD
-        return redirect()->route('encargo.index')->with('success', 'Encargo recibido!');
-        $request->validate([
-            'producto' => 'required|string|max:255',
-            'cantidad' => 'required|integer',
-            'email' => 'required|email',
-            // Agrega las validaciones necesarias
-        ]);
+        $producto = Producto::findOrFail($producto_id);
+        $cliente = $this->getCliente();
 
-        // Guardar el encargo en la base de datos
+        if (!$cliente) {
+            return redirect()->route('perfil')->with('error', 'Debe completar su perfil antes de realizar encargos.');
+        }
+
         Encargo::create([
-            'producto' => $request->producto,
+            'usuario_id' => $cliente->usuario_id,
+            'producto_id' => $producto_id,
             'cantidad' => $request->cantidad,
-            'email' => $request->email,
-            'origen' => $request->origen,
-            'transporte' => $request->transporte,
-            'precio' => $request->precio,
+            'estado' => 'pendiente' // Establecer un estado inicial
         ]);
 
-        // Redirigir o mostrar mensaje de éxito
-        return redirect()->back()->with('success', '¡Tu encargo ha sido recibido!');
+        return redirect()->route('encargos.index');
     }
 }

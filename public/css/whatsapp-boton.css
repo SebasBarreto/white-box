@@ -1,0 +1,108 @@
+/* Contenedor principal centrado verticalmente a la derecha */
+.whatsapp-button-container {
+    position: fixed;
+    top: 50%; /* Centrado verticalmente */
+    right: 20px; /* Separación desde el borde derecho */
+    transform: translateY(-50%); /* Ajusta el centro */
+    z-index: 1000; /* Siempre visible */
+  }
+  
+  /* Lista del botón */
+  .whatsapp-button-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Por si hay más botones en el futuro */
+    list-style: none;
+  }
+  
+  /* Estilo del botón principal */
+  .whatsapp-button {
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #404040;
+    margin: 20px 0; /* Separación entre elementos */
+    transition: 0.5s;
+  }
+  
+  /* Efectos en los bordes */
+  .whatsapp-button span {
+    position: absolute;
+    transition: transform 0.5s;
+  }
+  
+  .whatsapp-button span:nth-child(1),
+  .whatsapp-button span:nth-child(3) {
+    width: 100%;
+    height: 3px;
+    background: #e9ec12;
+  }
+  
+  .whatsapp-button span:nth-child(1) {
+    top: 0;
+    left: 0;
+    transform-origin: right;
+  }
+  
+  .whatsapp-button:hover span:nth-child(1) {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  
+  .whatsapp-button span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+  }
+  
+  .whatsapp-button:hover span:nth-child(3) {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  
+  .whatsapp-button span:nth-child(2),
+  .whatsapp-button span:nth-child(4) {
+    width: 3px;
+    height: 100%;
+    background: #404040;
+  }
+  
+  .whatsapp-button span:nth-child(2) {
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transform-origin: bottom;
+  }
+  
+  .whatsapp-button:hover span:nth-child(2) {
+    transform: scale(1);
+    transform-origin: top;
+  }
+  
+  .whatsapp-button span:nth-child(4) {
+    top: 0;
+    right: 0;
+    transform: scale(0);
+    transform-origin: top;
+  }
+  
+  .whatsapp-button:hover span:nth-child(4) {
+    transform: scale(1);
+    transform-origin: bottom;
+  }
+  
+  /* Cambios de color en hover */
+  .whatsapp-button:hover {
+    color: #25d366;
+  }
+  
+  .whatsapp-button:hover span {
+    background: #25d366;
+  }
+  

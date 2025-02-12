@@ -108,15 +108,6 @@ function toggleContent() {
         }
     });
     
-
-    function toggleFavorito(productId, button) {
-        // Cambia el estado activo del botón
-        const isActive = button.getAttribute('data-active') === 'true';
-        button.setAttribute('data-active', !isActive);
-    
-        // Aquí envías la actualización al servidor si es necesario
-        // Ejemplo: hacer un request con Fetch API
-    }
     
     // Referencias a los elementos
 const toggleButton = document.querySelector('.search-toggle');
@@ -148,6 +139,96 @@ document.addEventListener('click', (event) => {
     }
 });
 
+
+function toggleCarrito(productId, element) {
+    console.log('toggleCarrito ejecutado para producto ID:', productId);
+
+    const isActive = element.getAttribute('data-active') === 'true';
+
+    fetch(`/carrito/toggle/${productId}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+        },
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Respuesta del servidor:', data);
+        if (data.success) {
+            element.setAttribute('data-active', !isActive);
+            element.querySelector('svg').setAttribute('fill', !isActive ? '#e4e72c' : 'gray');
+        } else {
+            console.error('Error al actualizar carrito:', data.message);
+        }
+    })
+    .catch(error => console.error('Error:', error));
+}
+function toggleCarrito(productId, element) {
+    const isActive = element.getAttribute('data-active') === 'true';
+
+    fetch(`/carrito/toggle/${productId}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+        },
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            element.setAttribute('data-active', !isActive);
+            element.querySelector('svg').setAttribute('fill', !isActive ? '#ee4e2c' : 'gray');
+        }
+    })
+    .catch(error => console.error('Error:', error));
+}
+
+
+
+function toggleFavorito(productId, element) {
+    console.log('toggleFavorito ejecutado para producto ID:', productId);
+
+    const isActive = element.getAttribute('data-active') === 'true';
+
+    fetch(`/favoritos/toggle/${productId}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+        },
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Respuesta del servidor:', data);
+        if (data.success) {
+            element.setAttribute('data-active', !isActive);
+            element.querySelector('svg').setAttribute('fill', !isActive ? '#e4e72c' : 'gray');
+        } else {
+            console.error('Error al actualizar favoritos:', data.message);
+        }
+    })
+    .catch(error => console.error('Error:', error));
+}
+function toggleFavorito(productId, element) {
+    const isActive = element.getAttribute('data-active') === 'true';
+
+    fetch(`/favoritos/toggle/${productId}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+        },
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            element.setAttribute('data-active', !isActive);
+            element.querySelector('svg').setAttribute('fill', !isActive ? '#ee4e2c' : 'gray');
+        }
+    })
+    .catch(error => console.error('Error:', error));
+}
 
 
 

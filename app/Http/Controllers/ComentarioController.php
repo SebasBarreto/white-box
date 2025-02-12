@@ -3,30 +3,32 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
+use App\Models\Comentario;
 
 class ComentarioController extends Controller
 {
-    public function store(Request $request)
+    public function store(Request $request, $productoId)
     {
-        // Validar los datos recibidos
         $request->validate([
-            'producto_id' => 'required|integer|exists:producto,id',
-            'nombre_usuario' => 'required|string|max:255',
-            'comentario' => 'required|string',
-            'calificacion' => 'required|integer|between:1,5',
+            'comentario' => 'required|string|max:500',
         ]);
 
-        // Insertar el comentario en la base de datos
-        DB::table('comentarios')->insert([
-            'producto_id' => $request->input('producto_id'),
-            'nombre_usuario' => $request->input('nombre_usuario'),
-            'comentario' => $request->input('comentario'),
-            'calificacion' => $request->input('calificacion'),
-            'created_at' => now(),
+        Comentario::create([
+            'producto_id' => $productoId,
+            'usuario_id' => auth()->id(),
+            'comentario' => $request->comentario,
         ]);
 
-        // Redirigir con un mensaje de éxito
-        return redirect()->back()->with('success', 'Comentario agregado correctamente.');
+        return redirect()->back()->with('success', 'Comentario añadido correctamente.');
+    }
+
+    public function index($productoId)
+    {
+        $comentarios = Comentario::where('producto_id', $productoId)
+            ->with('usuario') // Asumiendo que tienes una relación con el usuario
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        return response()->json($comentarios);
     }
 }

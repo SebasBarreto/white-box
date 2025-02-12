@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ asset('css/info.css') }}">
 <!-- Footer Section -->
 <section class="footer_section padding-top-lg">
     <div class="footer_social_container">

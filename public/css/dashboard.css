@@ -1,0 +1,67 @@
+.Dashb-wrapper {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+    min-height: 100vh;       /* Asegura que el contenedor ocupe toda la altura de la ventana */          /* Padding opcional, puedes ajustarlo según tus necesidades */
+}
+
+.Dashb-container {
+    background: rgba(255, 255, 255, 0.048); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque en el fondo */
+    border-radius: 15px;
+    padding: 30px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Dashb-h3 {
+    font-size: 24px;
+    color: #ebebeb;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.Dashb-p {
+    font-size: 16px;
+    color: #60badd;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Dashb-a {
+    display: inline-block;
+    background-color: #ff6600;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Dashb-a:hover {
+    background-color: #cc5200;
+}
+
+.Dashb-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.Dashb-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Dashb-table th, .Dashb-table td {
+    padding: 8px;
+    border: 1px solid #e4e12dd0;
+    text-align: left;
+}
+
+.Dashb-table th {
+    background-color: #f3f02b;
+    color: black;
+}

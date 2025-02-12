@@ -1,0 +1,149 @@
+/* Contenedor principal */
+.register-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.25); /* Fondo translúcido */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  font-family: 'Roboto', sans-serif;
+  margin-top: 80px;
+  color: #333; /* Color general del texto */
+}
+
+/* Título */
+.register-form h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #e7e7e7; /* Color profesional */
+  margin-bottom: 1.5rem;
+}
+
+/* Inputs */
+.register-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 8px; /* Bordes redondeados */
+  border: 1px solid #ddd; /* Borde claro */
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.register-form input:focus {
+  border-color: #007bff; /* Azul profesional en foco */
+  outline: none;
+}
+
+/* Checkbox */
+.register-form input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.register-form label {
+  font-size: 14px;
+  color: #333; /* Color de texto profesional */
+  line-height: 1.5;
+}
+
+/* Botón */
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; /* Azul profesional */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Bordes redondeados */
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.register-form button:hover {
+  background-color: #0056b3; /* Azul más oscuro en hover */
+}
+
+/* Mensajes de error */
+.register-form .form-error {
+  color: #d9534f; /* Rojo profesional */
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+/* Enlace para login */
+.register-form .login-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #e7e7e7; /* Gris profesional */
+}
+
+.register-form .login-link a {
+  color: #007bff; /* Azul profesional */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.register-form .login-link a:hover {
+  color: #0056b3; /* Azul más oscuro en hover */
+  text-decoration: underline;
+}
+
+/* Estilos para la notificación de pantalla completa */
+.fullscreen-notification {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente oscuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  z-index: 10000; /* Asegura que la notificación esté encima de otros elementos */
+  visibility: hidden; /* Oculta la notificación por defecto */
+}
+
+.notification-content {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 80%;
+  font-size: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.notification-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notification-button:hover {
+  background-color: #cc5200;
+}
+
+/* Resaltar con borde amarillo si hay error en el checkbox */
+.register-form .error-border input[type="checkbox"] {
+  border: 2px solid #ff9900; /* Borde amarillo de precaución */
+}
+
+.register-form .error-border label {
+  color: #ff9900; /* Color amarillo para la etiqueta */
+}

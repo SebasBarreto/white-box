@@ -19,9 +19,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(15px);
-  border-radius: 15px;
+  babackground: rgba(255, 255, 255, 0.2); /* Fondo translúcido */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque */
+  border-radius: 15px; /* Opcional: bordes redondeados */;
   border: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -65,6 +65,7 @@
   width: 700px; /* Tamaño de la imagen principal */
   height: auto;
   overflow: hidden;
+  margin: 25px;
 }
 
 /* Imagen dentro del área de zoom */
@@ -325,17 +326,6 @@ h3 {
 
 /* atributos end*/
 
-/* Métodos de pago */
-.payment-methods h3 {
-  color: #00c0ff;
-  text-shadow: #000000;
-  margin-right: 50px;
-}
-
-.payment-methods ul {
-  list-style-type: disc;
-  color: #000000;
-}
 /* Cantidad con diseño atractivo */
 .quantity {
   display: flex;
@@ -423,32 +413,23 @@ h3 {
 .split-container {
   display: flex;
   gap: 10px; /* Espacio entre las cajas */
-  flex-wrap: wrap; /* Permite que las cajas se apilen en pantallas pequeñas */
   justify-content: space-between; /* Distribuye las cajas equitativamente */
   margin-bottom: 10px; /* Espaciado inferior */
 }
 
 /* Sección dividida */
 .split-section {
+  margin-top: 50px;
   flex: 1; /* Ajusta el ancho automáticamente */
   min-width: 280px; /* Ancho mínimo para pantallas pequeñas */
   max-width: 48%; /* Limita el ancho en pantallas grandes */
   padding: 5px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(50, 129, 43, 0.2);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   color: #fff;
   font-size: 1rem;
-}
-
-/* Contenido con altura máxima */
-.content {
-  max-height: 800px; /* Altura máxima inicial */
-  overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
-  min-height: auto;
-  margin-top: -50px;
 }
 
 /* Botón Leer más */
@@ -476,7 +457,7 @@ h3 {
   max-height: 190px; /* Altura máxima inicial */
   overflow: hidden; /* Oculta el contenido adicional */
   transition: max-height 0.3s ease-in-out; /* Suaviza la expansión/contracción */
-  margin-top: -50px;
+  margin-top: 50px;
 }
 
 .content.expanded {
@@ -484,11 +465,9 @@ h3 {
 }
 
 .toggle-btn {
-  background-color: #007bff;
+  background-color: #007bff57;
   color: #fff;
-  padding: 10px 15px;
   border-radius: 5px;
-  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -541,9 +520,9 @@ h3 {
 .split-container-bottom .product-card {
   flex: 1;
   max-width: 48%;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(15px);
-  border-radius: 15px;
+  babackground: rgba(255, 255, 255, 0.2); /* Fondo translúcido */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque */
+  border-radius: 15px; /* Opcional: bordes redondeados */
   border: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -593,7 +572,7 @@ h3 {
 
 /* Estilo específico para la tarjeta de productos relacionados */
 .related-products-card {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(104, 48, 48, 0.2);
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -667,3 +646,129 @@ input[type="number"] {
 }
 
 
+.actions {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos en columna */
+  align-items: center; /* Centra horizontalmente */
+  justify-content: flex-start; /* Alinea los elementos al inicio del contenedor */
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.336);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  margin: 15px;
+  text-align: center; /* Alinea el texto de los elementos */
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+.btn-quantity {
+  font-size: 1rem;
+  font-weight: bold;
+  background: #f5f5f5;
+  color: #555;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-quantity:hover {
+  background: #007bff;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+input[type="number"] {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido horizontalmente */
+  gap: 10px;
+  width: 100%;
+  position: relative; /* Asegúrate de que los elementos secundarios se posicionen dentro */
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  width: 50%; /* Botones ocupan todo el ancho */
+}
+
+.cart-btn {
+  background: #007bff; /* Color azul para el botón */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.cart-btn:hover {
+  background: #0056b3; /* Oscurece el azul al pasar el cursor */
+  transform: scale(1.05); /* Agrega un pequeño efecto de escala */
+}
+
+.btn-primary {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #218838;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+.btn-favorite {
+  background: #ffc107;
+  color: #fff;
+}
+
+.btn-favorite:hover {
+  background: #e0a800;
+  transform: scale(1.05);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,134 @@
+body .fixed-navbar {
+    position: fixed;
+    left: 0;
+    top: 60%;
+    transform: translateY(-50%);
+    height: 40%;
+    width: 50px;
+    padding: 5px 0;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #867d7080;
+    border-radius: 15px;
+}
+
+.icon-content {
+    margin: 0 10px;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.icon-content .tooltip {
+    position: absolute;
+    left: 60px;
+    bottom: 50%;
+    transform: translateY(50%);
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.icon-content:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: -50px;
+}
+
+.navbar-item {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar-item:hover {
+    transform: scale(1.2); /* Agrandar el ícono al pasar el mouse */
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.8)); /* Iluminar el SVG */
+}
+
+.navbar-item i {
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-text {
+    position: absolute;
+    left: 60px;
+    bottom: 30%;
+    transform: translateY(50%);
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-item:hover .menu-text {
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
+/* Estilo para el ítem activo */
+.navbar-item.active {
+    transform: translateX(10px) scale(1.2); /* Mover y agrandar el ítem activo */
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 1)); /* Iluminar más el SVG activo */
+}
+
+/* Colores específicos para cada ícono */
+.icon-content a[data-social="perfil"].active i {
+    color: #2cac32;
+    filter: drop-shadow(0 0 12px #2cac32); /* Iluminar con color específico */
+}
+
+.icon-content a[data-social="compras"].active i {
+    color: #846cb1;
+    filter: drop-shadow(0 0 12px #846cb1);
+}
+
+.icon-content a[data-social="favoritos"].active i {
+    color: #ff0000;
+    filter: drop-shadow(0 0 12px #ff0000);
+}
+
+.icon-content a[data-social="carrito"].active i {
+    color: #e9ec27;
+    filter: drop-shadow(0 0 12px #e9ec27);
+}
+
+.icon-content a[data-social="envios"].active i {
+    color: #8f4949;
+    filter: drop-shadow(0 0 12px #8f4949);
+}
+
+.icon-content a[data-social="logout"].active i {
+    color: #dda11f;
+    filter: drop-shadow(0 0 12px #dda11f);
+}

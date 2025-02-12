@@ -1,10 +1,23 @@
 /* Footer Section */
+/* Contenedor principal que ocupa toda la altura */
+.container {
+  flex-direction: column;
+  min-height: 75vh; /* Asegura que ocupe toda la altura de la pantalla */
+}
+
+/* El contenido principal ocupa el espacio flexible */
+.main-content {
+  flex: 0.1; /* Esto empuja el footer hacia abajo cuando hay poco contenido */
+}
+
+
 .footer_section {
   position: relative;
   background-color: #2d2d2d;
   color: #ffffff;
-  margin: 0 45px 45px;
-  padding-top: 25px;
+  margin: 45px 45px 45px;
+  padding-top: 20px;
+  
 }
 
 .footer_section .footer_social_container {

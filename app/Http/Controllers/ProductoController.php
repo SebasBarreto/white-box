@@ -2,11 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\ComentarioController;
 use App\Models\Categoria;
 use App\Models\Producto;
 use App\Models\Atributo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Models\Comentario;
+
+
 
 class ProductoController extends Controller
 {
@@ -20,29 +24,25 @@ class ProductoController extends Controller
     }
 
     // Método para mostrar el detalle de un producto específico
-    public function show($categoria_slug, $producto_slug)
+    public function show($categoriaSlug, $productoSlug)
     {
-        // Obtener la categoría por slug
-        $categoria = Categoria::where('slug', $categoria_slug)->firstOrFail();
-        
-        // Obtener el producto por slug y categoría
-        $producto = Producto::where('slug', $producto_slug)
+        $categoria = Categoria::where('slug', $categoriaSlug)->firstOrFail();
+        $producto = Producto::where('slug', $productoSlug)
             ->where('idcategoria', $categoria->id)
-            ->with('atributos.atributo') // Cargar atributos del producto
+            ->with('atributos.atributo')
             ->firstOrFail();
 
-        // Decodificar características JSON si existen
         $producto->caracteristicas = (!empty($producto->caracteristicas) && is_string($producto->caracteristicas))
             ? json_decode($producto->caracteristicas, true)
             : [];
 
-        // Comentarios del producto
-        $comentarios = DB::table('comentarios')
-            ->where('producto_id', $producto->id)
+        // Recuperar comentarios
+        $comentarios = Comentario::where('producto_id', $producto->id)
+            ->with('usuario') // Relación con el usuario que comentó
             ->orderBy('created_at', 'desc')
             ->get();
 
-        // Productos relacionados de la misma categoría
+        // Productos relacionados
         $productosRelacionados = Producto::where('idcategoria', $producto->idcategoria)
             ->where('id', '!=', $producto->id)
             ->take(5)

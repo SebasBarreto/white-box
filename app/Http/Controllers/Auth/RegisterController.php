@@ -4,101 +4,96 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
-use Illuminate\Foundation\Auth\RegistersUsers;
+use App\Models\Cliente;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 
 class RegisterController extends Controller
 {
-    /*
-    |--------------------------------------------------------------------------
-    | Register Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller handles the registration of new users as well as their
-    | validation and creation. By default, this controller uses a trait to
-    | provide this functionality without requiring any additional code.
-    |
-    */
-
-    use RegistersUsers;
-
-    /**
-     * Where to redirect users after registration.
-     *
-     * @var string
-     */
-    protected $redirectTo = '/home'; // Redirige al home después de registrarse
-
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    /*public function __construct()
+    // Mostrar el formulario de registro
+    public function showRegistrationForm()
     {
-        $this->middleware('guest'); 
-    }*/
-
-    /**
-     * Get a validator for an incoming registration request.
-     *
-     * @param  array  $data
-     * @return \Illuminate\Contracts\Validation\Validator
-     */
-    protected function validator(array $data)
-    {
-        return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'phone' => ['required', 'string', 'min:10', 'max:15'], // Validación del número de teléfono
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
-            'terms' => ['accepted'], // Verifica que los términos y condiciones sean aceptados
-        ]);
+        return view('auth.register'); // Asegúrate de que esta vista exista
     }
 
-    /**
-     * Create a new user instance after a valid registration.
-     *
-     * @param  array  $data
-     * @return \App\Models\User
-     */
-    protected function create(array $data)
-    {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'phone' => $data['phone'], // Asegúrate de tener el campo 'phone' en la tabla 'users'
-            'password' => Hash::make($data['password']),
-        ]);
-    }
-
+    // Registrar un nuevo usuario
     public function register(Request $request)
-{
-    // Validación de los datos
-    $validated = $request->validate([
-        'name' => 'required|string|max:255',
-        'email' => 'required|string|email|max:255|unique:users',
-        'phone' => 'nullable|string|max:15',  // Si deseas permitir teléfono
-        'password' => 'required|string|min:8|confirmed',
-    ]);
+    {
+        // Validación de los datos de usuario
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:users,email',
+            'phone' => 'required|string|max:20|unique:users,phone',
+            'password' => 'required|string|min:8|confirmed',
+        ]);
 
-    // Crear el usuario
-    $user = User::create([
-        'name' => $validated['name'],
-        'email' => $validated['email'],
-        'phone' => $validated['phone'],  // Si usas teléfono
-        'password' => bcrypt($validated['password']),
-        'role' => 'user',  // Asignamos el rol de usuario no admin
-    ]);
+        // Si la validación falla, redirigir con errores
+        if ($validator->fails()) {
+            return redirect()->back()
+                ->withErrors($validator)
+                ->withInput();
+        }
 
-    // Iniciar sesión automáticamente
-    Auth::login($user);
+        // Crear usuario en la tabla 'users'
+        $user = User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'password' => Hash::make($request->password),
+            'role_id' => 2, // Rol predeterminado
+        ]);
 
-    // Redirigir al dashboard o página principal
-    return redirect()->route('dashboard');
+        // Iniciar sesión automáticamente
+        Auth::login($user);
+
+        // Redirigir al dashboard con un mensaje de éxito
+        return redirect()->intended('dashboard')->with('success', 'Registro exitoso. Bienvenido/a, ' . $user->name . '!');
+    }
+
+    // Método para actualizar los datos del usuario y crear cliente
+    public function updateUser(Request $request, $userId)
+    {
+        // Validación de los datos del usuario
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|string|max:255',
+            'email' => 'required|string|email|max:255|unique:users,email,' . $userId,
+            'phone' => 'required|string|max:20|unique:users,phone,' . $userId,
+        ]);
+
+        // Si la validación falla, redirigir con errores
+        if ($validator->fails()) {
+            return redirect()->back()
+                ->withErrors($validator)
+                ->withInput();
+        }
+
+        // Obtener el usuario
+        $user = User::findOrFail($userId);
+
+        // Actualizar el usuario
+        $user->update([
+            'name' => $request->name,
+            'email' => $request->email,
+            'phone' => $request->phone,
+        ]);
+
+        // Verificar si ya existe un cliente asociado al usuario
+        $clienteExistente = Cliente::where('usuario_id', $user->id)->first();
+
+        // Si no existe un cliente asociado, crear uno nuevo
+        if (!$clienteExistente) {
+            Cliente::create([
+                'usuario_id' => $user->id,
+                'nombre' => $user->name,
+                'telefono' => $user->phone,
+                'email' => $user->email,
+                'role_id' => 2, // Role o algún valor que sea pertinente
+            ]);
+        }
+
+        // Redirigir al dashboard con un mensaje de éxito
+        return redirect()->route('dashboard')->with('success', 'Datos actualizados correctamente.');
+    }
 }
-
-}
-
-

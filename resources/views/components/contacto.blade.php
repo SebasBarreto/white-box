@@ -22,6 +22,7 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/contacto.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/switches.css') }}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('css/contacto.css') }}">
 </head>
 
 <body>

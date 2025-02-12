@@ -129,229 +129,29 @@
   </div>
   
   <!-- end hero area -->
-
- <!-- shop section -->
-
- <section class="shop_section layout_padding">
-  <div class="container">
-    <div class="heading_container heading_center">
-      <h2>
-        Productos En Tienda
-      </h2>
-    </div>
-    <div class="row">
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="box">
-          <a href="">
-            <div class="img-box">
-              <img src="images/categoria/home/p1.png" alt="">
+  <div class="shop_section row justify-content-center">
+    @if(isset($productos) && $productos->count())
+        @foreach($productos as $producto)
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <a href="{{ route('producto.detalle', ['categoria_slug' => $producto->categoria->slug, 'producto_slug' => $producto->slug]) }}" class="box-link">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="{{ asset('images/categoria/' . str_replace('-', '_', $producto->categoria->slug) . '/' . str_replace('-', '_', $producto->slug) . '/producto.png') }}" alt="{{ $producto->nombre }}">
+                        </div>
+                        <div class="card-body">
+                            <h5>{{ $producto->nombre }}</h5>
+                            <p class="price">Precio: ${{ number_format($producto->precio, 2) }}</p>
+                            <p class="category">Categoría: {{ $producto->categoria->nombre }}</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="detail-box">
-              <h6>
-                Disco Duro
-              </h6>
-              <h6>
-                Precio 
-                <span>
-                  $90 MIl
-                </span>
-              </h6>
-            </div>
-            <div class="old">
-              <span>
-                
-              </span>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="box">
-          <a href="">
-            <div class="img-box">
-              <img src="images/categoria/home/p2.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Air fryer
-              </h6>
-              <h6>
-                Precio
-                <span>
-                  $170 MIL
-                </span>
-              </h6>
-            </div>
-            <div class="new">
-              <span>
-                New
-              </span>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="box">
-          <a href="">
-            <div class="img-box">
-              <img src="images/categoria/home/p3.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                KIT cosmeticos
-              </h6>
-              <h6>
-                Precio
-                <span>
-                  $40 MIL
-                </span>
-              </h6>
-            </div>
-            <div class="old">
-              <span>
-                
-              </span>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="box">
-          <a href="">
-            <div class="img-box">
-              <img src="images/categoria/home/p4.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Buggatti Lego
-              </h6>
-              <h6>
-                Precio
-                <span>
-                  $1'050 MIL
-                </span>
-              </h6>
-            </div>
-            <div class="new">
-              <span>
-                New
-              </span>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="box">
-          <a href="">
-            <div class="img-box">
-              <img src="images/categoria/home/p5.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Cuadro Elefante Moderno
-              </h6>
-              <h6>
-                Precio
-                <span>
-                  $380 MIL
-                </span>
-              </h6>
-            </div>
-            <div class="old">
-              <span>
-                
-              </span>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="box">
-          <a href="">
-            <div class="img-box">
-              <img src="images/categoria/home/p6.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Zapatillas D&G
-              </h6>
-              <h6>
-                Precio
-                <span>
-                  $140 MIL
-                </span>
-              </h6>
-            </div>
-            <div class="old">
-              <span>
-                
-              </span>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="box">
-          <a href="">
-            <div class="img-box">
-              <img src="images/categoria/home/p7.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Luces Ambiente
-              </h6>
-              <h6>
-                Precio
-                <span>
-                  $200 MIL
-                </span>
-              </h6>
-            </div>
-            <div class="new">
-              <span>
-                New
-              </span>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="box">
-          <a href="">
-            <div class="img-box">
-              <img src="images/categoria/home/p8.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h6>
-                Bandas elasticas
-              </h6>
-              <h6>
-                Precio
-                <span>
-                  $95 MIL
-                </span>
-              </h6>
-            </div>
-            <div class="new">
-              <span>
-                New
-              </span>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="btn-box">
-      <a href="{{ route('categoria.index') }}" class="btn btn-primary">
-        Ver Productos
-      </a>
-      
-    </div>
+        @endforeach
+    @else
+        <p>No hay productos disponibles.</p>
+    @endif
   </div>
-</section>
-
-<!-- end shop section -->
-
+  
 <!-- saving section -->
 
   <section class="saving_section ">
